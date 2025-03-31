@@ -1,6 +1,6 @@
 # General description 
 
-Script and data associated used to benchmarket sets of methods frequently employed to analyse eDNA sequencing outputs.
+Script and associated data used to benchmark sets of methods frequently employed to analyse eDNA sequencing outputs.
 
 # Required files, scripts and programs
 
@@ -10,7 +10,6 @@ Script and data associated used to benchmarket sets of methods frequently employ
 - RDP tool classifier v2.11 ([Github](https://github.com/rdpstaff/classifier) / [SourceForge](https://sourceforge.net/projects/rdp-classifier/))
 - usearch v11.0.667 ([website](http://www.drive5.com/usearch/))
 - vsearch v2.15.2 ([Github](https://github.com/torognes/vsearch))
-  
 - Barque V1.8.5 ([Github](https://github.com/enormandeau/barque)) (N.B. Barque will only work on GNU Linux or OSX). Requires the following dependencies : 
   - bash 4+
   - python 3.5+
@@ -19,13 +18,11 @@ Script and data associated used to benchmarket sets of methods frequently employ
   - java (ubuntu/mint: sudo apt-get install default-jre)
   - gnu parallel
   - flash (read merger) v1.2.11+
-     - Add the following to bashrc configuration file  `export PATH=/home/user/FLASH-1.2.11:$PATH`
   - vsearch v2.14.2+ (Barque will not work with older versions of vsearch)
-     - Depending on how vsearch is installed either export PATH to location of vsearch or activate base conda environnement
 
 ## Databases
 
-The following databases can be downloaded with following the hyperlinks. 
+The following databases can be downloaded with clickiing the hyperlinks
 
 - [COI formatted for Barque](https://www.ibis.ulaval.ca/services/bioinformatique/barque_databases/)
 - [Eukaryote CO1 Classifier for RDP V5.1](https://github.com/terrimporter/CO1Classifier/releases/tag/RDP-COI-v5.1.0) 
@@ -38,3 +35,7 @@ In order to train the RDP classifier on any database the following scripts are r
 
 - lineage2taxTrain.py
 - addFullLineage.py
+
+# Contact 
+
+For any questions or comments : karine.villeneuve12@gmail.com
