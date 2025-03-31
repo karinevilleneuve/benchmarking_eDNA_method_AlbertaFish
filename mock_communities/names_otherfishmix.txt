@@ -1,0 +1,10 @@
+>NC_060473;Jaydia_carinatus
+>NC_027189;Triplophysa_bombifrons
+>NC_088031;Urophycis_brasiliensis
+>NC_014689;Micropterus_floridanus
+>NC_066072;Pseudopimelodus_schultzi
+>NC_066926;Embiotoca_lateralis
+>NC_022858;Barbatula_nuda
+>NC_027970;Centropyge_flavissima
+>NC_081041;Lampris_incognitus
+>NC_087991;Conodon_nobilis

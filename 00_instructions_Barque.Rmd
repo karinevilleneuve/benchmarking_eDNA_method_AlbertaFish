@@ -1,0 +1,53 @@
+---
+title: "00_barque_instructions"
+output: html_document
+date: "2025-03-31"
+---
+NB. Barque will only work on GNU Linux or OSX
+
+1. Install Barque by cloning the repository
+
+```{bash, eval = FALSE}
+git clone https://github.com/enormandeau/barque
+```
+
+2. Get or prepare the database(s) (see Formatting database section below) and deposit the fasta.gz file in the 03_databases folder and give it a name that matches the information of the 02_info/primers.csv file. [Link](https://www.ibis.ulaval.ca/services/bioinformatique/barque_databases/) to BOLD database 
+
+3. Parameters specified in the `02_info/primers.csv` file : 
+
+- Marker gene COI and BOLD database : 
+  - `coirawkv,GTWTTTGGYGCYTGRGCCGGRATAGT,CARAARCTYATRTTRTTYATTCG,100,450,bold,0.97,0.9,0.85`
+- Marker gene COI and custom-curated database : 
+  - `coicurated,GTWTTTGGYGCYTGRGCCGGRATAGT,CARAARCTYATRTTRTTYATTCG,100,450,coicuratedncbi,0.97,0.9,0.85`
+- Marker gene 12S and default database : 
+  - `12s200pb,GTCGGTAAAACTCGTGCCAGC,CATAGTGGGGTATCTAATCCCAGTTTG,150,190,12S,0.97,0.90,0.85`
+- Marker gene 12S and custom-curated database : 
+  - `12scurated,GTCGGTAAAACTCGTGCCAGC,CATAGTGGGGTATCTAATCCCAGTTTG,150,190,12Scurated,0.97,0.90,0.85`
+
+4. Run barque 
+
+```{bash, eval = FALSE}
+./barque 02_info/barque_config.sh
+```
+
+5. Extract required output files 
+
+```{bash}
+mkdir 14_results
+cd 08_chimeras
+cp *.fasta.gz_unique.fasta.gz ../14_results
+cd ..  
+cd 09_vsearch
+mkdir matched 
+mv *_matched* matched
+cp *.gz ../14_results
+cd ..
+cp -r 12_results 14_results
+cd 14_results 
+gunzip *.gz
+cd ..
+mv 99_logfiles/* 14_results
+```
+
+6. Change the name of the folder `14_results` to something more meaningfull 
+

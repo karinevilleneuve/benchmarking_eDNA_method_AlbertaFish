@@ -1,0 +1,2244 @@
+
+
+        |    |    |
+       )_)  )_)  )_)
+      )___))___))___)\
+     )____)____)_____)\\
+   _____|____|____|____\\\__
+   \   BARQUE v1.8.5   /
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^   ^^^^^^    ^^^^^^  ^^^^^^
+
+- 12S Database found
+- 26 Samples found in 04_data
+- vsearch is recent enough:
+    needed: 2.14.2+; installed: 2.29.1
+- python3 is recent enough:
+    needed: 3.5.0+; installed: 3.10.12
+- R is recent enough:
+    needed: 3.0.0+; installed: 4.4.0
+- parallel is recent enough:
+    needed: 20180101+; installed: 20241122
+- flash is recent enough:
+    needed: 1.2.11+; installed: 1.2.11
+
+BARQUE: Preparing data
+
+BARQUE: Trimming and filtering reads
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/12s-lowrelat_L001_R1_001.fastq.gz 04_data/12s-lowrelat_L001_R2_001.fastq.gz 05_trimmed/12s-lowrelat_L001_R1_001.fastq.gz 05_trimmed/12s-lowrelat_L001_R1_001.single.fastq.gz 05_trimmed/12s-lowrelat_L001_R2_001.fastq.gz 05_trimmed/12s-lowrelat_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 80490 Both Surviving: 80490 (100.00%) Forward Only Surviving: 0 (0.00%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/12s-blindspot_L001_R1_001.fastq.gz 04_data/12s-blindspot_L001_R2_001.fastq.gz 05_trimmed/12s-blindspot_L001_R1_001.fastq.gz 05_trimmed/12s-blindspot_L001_R1_001.single.fastq.gz 05_trimmed/12s-blindspot_L001_R2_001.fastq.gz 05_trimmed/12s-blindspot_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 80490 Both Surviving: 80490 (100.00%) Forward Only Surviving: 0 (0.00%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/12s-mix_L001_R1_001.fastq.gz 04_data/12s-mix_L001_R2_001.fastq.gz 05_trimmed/12s-mix_L001_R1_001.fastq.gz 05_trimmed/12s-mix_L001_R1_001.single.fastq.gz 05_trimmed/12s-mix_L001_R2_001.fastq.gz 05_trimmed/12s-mix_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 78242 Both Surviving: 78242 (100.00%) Forward Only Surviving: 0 (0.00%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/12s-allalberta_L001_R1_001.fastq.gz 04_data/12s-allalberta_L001_R2_001.fastq.gz 05_trimmed/12s-allalberta_L001_R1_001.fastq.gz 05_trimmed/12s-allalberta_L001_R1_001.single.fastq.gz 05_trimmed/12s-allalberta_L001_R2_001.fastq.gz 05_trimmed/12s-allalberta_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 77958 Both Surviving: 77958 (100.00%) Forward Only Surviving: 0 (0.00%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/12s-richlowevenlow_L001_R1_001.fastq.gz 04_data/12s-richlowevenlow_L001_R2_001.fastq.gz 05_trimmed/12s-richlowevenlow_L001_R1_001.fastq.gz 05_trimmed/12s-richlowevenlow_L001_R1_001.single.fastq.gz 05_trimmed/12s-richlowevenlow_L001_R2_001.fastq.gz 05_trimmed/12s-richlowevenlow_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 40246 Both Surviving: 40151 (99.76%) Forward Only Surviving: 93 (0.23%) Reverse Only Surviving: 2 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/12s-richplusevenlow_L001_R1_001.fastq.gz 04_data/12s-richplusevenlow_L001_R2_001.fastq.gz 05_trimmed/12s-richplusevenlow_L001_R1_001.fastq.gz 05_trimmed/12s-richplusevenlow_L001_R1_001.single.fastq.gz 05_trimmed/12s-richplusevenlow_L001_R2_001.fastq.gz 05_trimmed/12s-richplusevenlow_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 40240 Both Surviving: 40150 (99.78%) Forward Only Surviving: 86 (0.21%) Reverse Only Surviving: 4 (0.01%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/12s-richplusevenplus_L001_R1_001.fastq.gz 04_data/12s-richplusevenplus_L001_R2_001.fastq.gz 05_trimmed/12s-richplusevenplus_L001_R1_001.fastq.gz 05_trimmed/12s-richplusevenplus_L001_R1_001.single.fastq.gz 05_trimmed/12s-richplusevenplus_L001_R2_001.fastq.gz 05_trimmed/12s-richplusevenplus_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 40240 Both Surviving: 40163 (99.81%) Forward Only Surviving: 76 (0.19%) Reverse Only Surviving: 1 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/12s-richlowevenplus_L001_R1_001.fastq.gz 04_data/12s-richlowevenplus_L001_R2_001.fastq.gz 05_trimmed/12s-richlowevenplus_L001_R1_001.fastq.gz 05_trimmed/12s-richlowevenplus_L001_R1_001.single.fastq.gz 05_trimmed/12s-richlowevenplus_L001_R2_001.fastq.gz 05_trimmed/12s-richlowevenplus_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 40244 Both Surviving: 40130 (99.72%) Forward Only Surviving: 113 (0.28%) Reverse Only Surviving: 1 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0001-mifish_S3_L001_R1_001.fastq.gz 04_data/0001-mifish_S3_L001_R2_001.fastq.gz 05_trimmed/0001-mifish_S3_L001_R1_001.fastq.gz 05_trimmed/0001-mifish_S3_L001_R1_001.single.fastq.gz 05_trimmed/0001-mifish_S3_L001_R2_001.fastq.gz 05_trimmed/0001-mifish_S3_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 56559 Both Surviving: 47917 (84.72%) Forward Only Surviving: 433 (0.77%) Reverse Only Surviving: 317 (0.56%) Dropped: 7892 (13.95%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0018-mifish_S20_L001_R1_001.fastq.gz 04_data/0018-mifish_S20_L001_R2_001.fastq.gz 05_trimmed/0018-mifish_S20_L001_R1_001.fastq.gz 05_trimmed/0018-mifish_S20_L001_R1_001.single.fastq.gz 05_trimmed/0018-mifish_S20_L001_R2_001.fastq.gz 05_trimmed/0018-mifish_S20_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 61800 Both Surviving: 57699 (93.36%) Forward Only Surviving: 596 (0.96%) Reverse Only Surviving: 260 (0.42%) Dropped: 3245 (5.25%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0016-mifish_S18_L001_R1_001.fastq.gz 04_data/0016-mifish_S18_L001_R2_001.fastq.gz 05_trimmed/0016-mifish_S18_L001_R1_001.fastq.gz 05_trimmed/0016-mifish_S18_L001_R1_001.single.fastq.gz 05_trimmed/0016-mifish_S18_L001_R2_001.fastq.gz 05_trimmed/0016-mifish_S18_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 45043 Both Surviving: 43094 (95.67%) Forward Only Surviving: 381 (0.85%) Reverse Only Surviving: 186 (0.41%) Dropped: 1382 (3.07%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0008-mifish_S10_L001_R1_001.fastq.gz 04_data/0008-mifish_S10_L001_R2_001.fastq.gz 05_trimmed/0008-mifish_S10_L001_R1_001.fastq.gz 05_trimmed/0008-mifish_S10_L001_R1_001.single.fastq.gz 05_trimmed/0008-mifish_S10_L001_R2_001.fastq.gz 05_trimmed/0008-mifish_S10_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 62674 Both Surviving: 40857 (65.19%) Forward Only Surviving: 745 (1.19%) Reverse Only Surviving: 405 (0.65%) Dropped: 20667 (32.98%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0009-mifish_S11_L001_R1_001.fastq.gz 04_data/0009-mifish_S11_L001_R2_001.fastq.gz 05_trimmed/0009-mifish_S11_L001_R1_001.fastq.gz 05_trimmed/0009-mifish_S11_L001_R1_001.single.fastq.gz 05_trimmed/0009-mifish_S11_L001_R2_001.fastq.gz 05_trimmed/0009-mifish_S11_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 52654 Both Surviving: 47963 (91.09%) Forward Only Surviving: 522 (0.99%) Reverse Only Surviving: 249 (0.47%) Dropped: 3920 (7.44%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0004-mifish_S6_L001_R1_001.fastq.gz 04_data/0004-mifish_S6_L001_R2_001.fastq.gz 05_trimmed/0004-mifish_S6_L001_R1_001.fastq.gz 05_trimmed/0004-mifish_S6_L001_R1_001.single.fastq.gz 05_trimmed/0004-mifish_S6_L001_R2_001.fastq.gz 05_trimmed/0004-mifish_S6_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 42284 Both Surviving: 38740 (91.62%) Forward Only Surviving: 307 (0.73%) Reverse Only Surviving: 178 (0.42%) Dropped: 3059 (7.23%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0010-mifish_S12_L001_R1_001.fastq.gz 04_data/0010-mifish_S12_L001_R2_001.fastq.gz 05_trimmed/0010-mifish_S12_L001_R1_001.fastq.gz 05_trimmed/0010-mifish_S12_L001_R1_001.single.fastq.gz 05_trimmed/0010-mifish_S12_L001_R2_001.fastq.gz 05_trimmed/0010-mifish_S12_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 47783 Both Surviving: 42420 (88.78%) Forward Only Surviving: 424 (0.89%) Reverse Only Surviving: 242 (0.51%) Dropped: 4697 (9.83%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0002-mifish_S4_L001_R1_001.fastq.gz 04_data/0002-mifish_S4_L001_R2_001.fastq.gz 05_trimmed/0002-mifish_S4_L001_R1_001.fastq.gz 05_trimmed/0002-mifish_S4_L001_R1_001.single.fastq.gz 05_trimmed/0002-mifish_S4_L001_R2_001.fastq.gz 05_trimmed/0002-mifish_S4_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 49016 Both Surviving: 30729 (62.69%) Forward Only Surviving: 553 (1.13%) Reverse Only Surviving: 274 (0.56%) Dropped: 17460 (35.62%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0015-mifish_S17_L001_R1_001.fastq.gz 04_data/0015-mifish_S17_L001_R2_001.fastq.gz 05_trimmed/0015-mifish_S17_L001_R1_001.fastq.gz 05_trimmed/0015-mifish_S17_L001_R1_001.single.fastq.gz 05_trimmed/0015-mifish_S17_L001_R2_001.fastq.gz 05_trimmed/0015-mifish_S17_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 42649 Both Surviving: 30590 (71.73%) Forward Only Surviving: 498 (1.17%) Reverse Only Surviving: 243 (0.57%) Dropped: 11318 (26.54%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0012-mifish_S14_L001_R1_001.fastq.gz 04_data/0012-mifish_S14_L001_R2_001.fastq.gz 05_trimmed/0012-mifish_S14_L001_R1_001.fastq.gz 05_trimmed/0012-mifish_S14_L001_R1_001.single.fastq.gz 05_trimmed/0012-mifish_S14_L001_R2_001.fastq.gz 05_trimmed/0012-mifish_S14_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 33543 Both Surviving: 29848 (88.98%) Forward Only Surviving: 292 (0.87%) Reverse Only Surviving: 124 (0.37%) Dropped: 3279 (9.78%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0017-mifish_S19_L001_R1_001.fastq.gz 04_data/0017-mifish_S19_L001_R2_001.fastq.gz 05_trimmed/0017-mifish_S19_L001_R1_001.fastq.gz 05_trimmed/0017-mifish_S19_L001_R1_001.single.fastq.gz 05_trimmed/0017-mifish_S19_L001_R2_001.fastq.gz 05_trimmed/0017-mifish_S19_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 31594 Both Surviving: 28548 (90.36%) Forward Only Surviving: 363 (1.15%) Reverse Only Surviving: 106 (0.34%) Dropped: 2577 (8.16%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0014-mifish_S16_L001_R1_001.fastq.gz 04_data/0014-mifish_S16_L001_R2_001.fastq.gz 05_trimmed/0014-mifish_S16_L001_R1_001.fastq.gz 05_trimmed/0014-mifish_S16_L001_R1_001.single.fastq.gz 05_trimmed/0014-mifish_S16_L001_R2_001.fastq.gz 05_trimmed/0014-mifish_S16_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 37181 Both Surviving: 31124 (83.71%) Forward Only Surviving: 396 (1.07%) Reverse Only Surviving: 219 (0.59%) Dropped: 5442 (14.64%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0011-mifish_S13_L001_R1_001.fastq.gz 04_data/0011-mifish_S13_L001_R2_001.fastq.gz 05_trimmed/0011-mifish_S13_L001_R1_001.fastq.gz 05_trimmed/0011-mifish_S13_L001_R1_001.single.fastq.gz 05_trimmed/0011-mifish_S13_L001_R2_001.fastq.gz 05_trimmed/0011-mifish_S13_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 37268 Both Surviving: 34748 (93.24%) Forward Only Surviving: 297 (0.80%) Reverse Only Surviving: 144 (0.39%) Dropped: 2079 (5.58%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0003-mifish_S5_L001_R1_001.fastq.gz 04_data/0003-mifish_S5_L001_R2_001.fastq.gz 05_trimmed/0003-mifish_S5_L001_R1_001.fastq.gz 05_trimmed/0003-mifish_S5_L001_R1_001.single.fastq.gz 05_trimmed/0003-mifish_S5_L001_R2_001.fastq.gz 05_trimmed/0003-mifish_S5_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 35824 Both Surviving: 33676 (94.00%) Forward Only Surviving: 219 (0.61%) Reverse Only Surviving: 140 (0.39%) Dropped: 1789 (4.99%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0013-mifish_S15_L001_R1_001.fastq.gz 04_data/0013-mifish_S15_L001_R2_001.fastq.gz 05_trimmed/0013-mifish_S15_L001_R1_001.fastq.gz 05_trimmed/0013-mifish_S15_L001_R1_001.single.fastq.gz 05_trimmed/0013-mifish_S15_L001_R2_001.fastq.gz 05_trimmed/0013-mifish_S15_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 27268 Both Surviving: 26020 (95.42%) Forward Only Surviving: 226 (0.83%) Reverse Only Surviving: 103 (0.38%) Dropped: 919 (3.37%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0006-mifish_S8_L001_R1_001.fastq.gz 04_data/0006-mifish_S8_L001_R2_001.fastq.gz 05_trimmed/0006-mifish_S8_L001_R1_001.fastq.gz 05_trimmed/0006-mifish_S8_L001_R1_001.single.fastq.gz 05_trimmed/0006-mifish_S8_L001_R2_001.fastq.gz 05_trimmed/0006-mifish_S8_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 30471 Both Surviving: 22951 (75.32%) Forward Only Surviving: 405 (1.33%) Reverse Only Surviving: 171 (0.56%) Dropped: 6944 (22.79%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0005-mifish_S7_L001_R1_001.fastq.gz 04_data/0005-mifish_S7_L001_R2_001.fastq.gz 05_trimmed/0005-mifish_S7_L001_R1_001.fastq.gz 05_trimmed/0005-mifish_S7_L001_R1_001.single.fastq.gz 05_trimmed/0005-mifish_S7_L001_R2_001.fastq.gz 05_trimmed/0005-mifish_S7_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 29088 Both Surviving: 23286 (80.05%) Forward Only Surviving: 274 (0.94%) Reverse Only Surviving: 196 (0.67%) Dropped: 5332 (18.33%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/0007-mifish_S9_L001_R1_001.fastq.gz 04_data/0007-mifish_S9_L001_R2_001.fastq.gz 05_trimmed/0007-mifish_S9_L001_R1_001.fastq.gz 05_trimmed/0007-mifish_S9_L001_R1_001.single.fastq.gz 05_trimmed/0007-mifish_S9_L001_R2_001.fastq.gz 05_trimmed/0007-mifish_S9_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 21973 Both Surviving: 17668 (80.41%) Forward Only Surviving: 200 (0.91%) Reverse Only Surviving: 125 (0.57%) Dropped: 3980 (18.11%)
+TrimmomaticPE: Completed successfully
+
+BARQUE: Merging forward and reverse reads
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/12s-richplusevenplus_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/12s-richplusevenplus_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 40163 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      40163
+[FLASH]     Combined pairs:   40161
+[FLASH]     Uncombined pairs: 2
+[FLASH]     Percent combined: 100.00%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.420 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/12s-richlowevenplus_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/12s-richlowevenplus_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 40130 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      40130
+[FLASH]     Combined pairs:   40125
+[FLASH]     Uncombined pairs: 5
+[FLASH]     Percent combined: 99.99%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.436 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/12s-richplusevenlow_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/12s-richplusevenlow_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 40150 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      40150
+[FLASH]     Combined pairs:   40145
+[FLASH]     Uncombined pairs: 5
+[FLASH]     Percent combined: 99.99%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.663 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/12s-richlowevenlow_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/12s-richlowevenlow_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 40151 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      40151
+[FLASH]     Combined pairs:   40148
+[FLASH]     Uncombined pairs: 3
+[FLASH]     Percent combined: 99.99%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.797 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0012-mifish_S14_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0012-mifish_S14_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 29848 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      29848
+[FLASH]     Combined pairs:   29648
+[FLASH]     Uncombined pairs: 200
+[FLASH]     Percent combined: 99.33%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 2.028 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0011-mifish_S13_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0011-mifish_S13_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 34748 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      34748
+[FLASH]     Combined pairs:   34673
+[FLASH]     Uncombined pairs: 75
+[FLASH]     Percent combined: 99.78%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 2.473 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0015-mifish_S17_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0015-mifish_S17_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 30590 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      30590
+[FLASH]     Combined pairs:   30463
+[FLASH]     Uncombined pairs: 127
+[FLASH]     Percent combined: 99.58%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 2.643 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0008-mifish_S10_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0008-mifish_S10_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 40857 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      40857
+[FLASH]     Combined pairs:   40758
+[FLASH]     Uncombined pairs: 99
+[FLASH]     Percent combined: 99.76%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 2.681 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0010-mifish_S12_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0010-mifish_S12_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 42420 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      42420
+[FLASH]     Combined pairs:   42281
+[FLASH]     Uncombined pairs: 139
+[FLASH]     Percent combined: 99.67%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 2.712 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0017-mifish_S19_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0017-mifish_S19_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 28548 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      28548
+[FLASH]     Combined pairs:   28360
+[FLASH]     Uncombined pairs: 188
+[FLASH]     Percent combined: 99.34%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 2.719 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0002-mifish_S4_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0002-mifish_S4_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 30729 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      30729
+[FLASH]     Combined pairs:   30611
+[FLASH]     Uncombined pairs: 118
+[FLASH]     Percent combined: 99.62%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 2.732 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0001-mifish_S3_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0001-mifish_S3_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 47917 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      47917
+[FLASH]     Combined pairs:   47665
+[FLASH]     Uncombined pairs: 252
+[FLASH]     Percent combined: 99.47%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 2.849 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0006-mifish_S8_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0006-mifish_S8_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 22951 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      22951
+[FLASH]     Combined pairs:   22901
+[FLASH]     Uncombined pairs: 50
+[FLASH]     Percent combined: 99.78%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.180 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0009-mifish_S11_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0009-mifish_S11_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 47963 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      47963
+[FLASH]     Combined pairs:   47835
+[FLASH]     Uncombined pairs: 128
+[FLASH]     Percent combined: 99.73%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 3.123 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0014-mifish_S16_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0014-mifish_S16_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 31124 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      31124
+[FLASH]     Combined pairs:   30865
+[FLASH]     Uncombined pairs: 259
+[FLASH]     Percent combined: 99.17%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.659 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0005-mifish_S7_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0005-mifish_S7_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 23286 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      23286
+[FLASH]     Combined pairs:   23229
+[FLASH]     Uncombined pairs: 57
+[FLASH]     Percent combined: 99.76%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.125 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0018-mifish_S20_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0018-mifish_S20_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 57699 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      57699
+[FLASH]     Combined pairs:   57563
+[FLASH]     Uncombined pairs: 136
+[FLASH]     Percent combined: 99.76%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 3.264 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0004-mifish_S6_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0004-mifish_S6_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 38740 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      38740
+[FLASH]     Combined pairs:   38614
+[FLASH]     Uncombined pairs: 126
+[FLASH]     Percent combined: 99.67%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 3.276 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0013-mifish_S15_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0013-mifish_S15_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 26020 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      26020
+[FLASH]     Combined pairs:   25903
+[FLASH]     Uncombined pairs: 117
+[FLASH]     Percent combined: 99.55%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.575 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0016-mifish_S18_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0016-mifish_S18_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 43094 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      43094
+[FLASH]     Combined pairs:   42913
+[FLASH]     Uncombined pairs: 181
+[FLASH]     Percent combined: 99.58%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 3.320 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0003-mifish_S5_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0003-mifish_S5_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 33676 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      33676
+[FLASH]     Combined pairs:   33614
+[FLASH]     Uncombined pairs: 62
+[FLASH]     Percent combined: 99.82%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 1.838 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/0007-mifish_S9_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/0007-mifish_S9_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 17668 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      17668
+[FLASH]     Combined pairs:   17615
+[FLASH]     Uncombined pairs: 53
+[FLASH]     Percent combined: 99.70%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.833 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/12s-lowrelat_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/12s-lowrelat_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 80490 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      80490
+[FLASH]     Combined pairs:   80448
+[FLASH]     Uncombined pairs: 42
+[FLASH]     Percent combined: 99.95%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 4.015 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/12s-mix_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/12s-mix_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 78242 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      78242
+[FLASH]     Combined pairs:   78205
+[FLASH]     Uncombined pairs: 37
+[FLASH]     Percent combined: 99.95%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 4.021 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/12s-blindspot_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/12s-blindspot_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 80490 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      80490
+[FLASH]     Combined pairs:   80460
+[FLASH]     Uncombined pairs: 30
+[FLASH]     Percent combined: 99.96%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 4.048 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/12s-allalberta_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/12s-allalberta_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH] Processed 50000 read pairs
+[FLASH] Processed 75000 read pairs
+[FLASH] Processed 77958 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      77958
+[FLASH]     Combined pairs:   77920
+[FLASH]     Uncombined pairs: 38
+[FLASH]     Percent combined: 99.95%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 4.048 seconds elapsed
+
+BARQUE: Splitting samples by amplicon
+Extracted 81.6% (18707/22901)	 sequences, 99.9% forward (6), 0006-mifish_S8_L001_merged.fastq.gz
+Extracted 86.1% (28965/33614)	 sequences, 99.9% forward (11), 0003-mifish_S5_L001_merged.fastq.gz
+Extracted 67.3% (17448/25903)	 sequences, 99.9% forward (4), 0013-mifish_S15_L001_merged.fastq.gz
+Extracted 57.9% (17657/30463)	 sequences, 99.9% forward (2), 0015-mifish_S17_L001_merged.fastq.gz
+Extracted 35.6% (10117/28360)	 sequences, 99.9% forward (2), 0017-mifish_S19_L001_merged.fastq.gz
+Extracted 82.0% (28441/34673)	 sequences, 99.9% forward (1), 0011-mifish_S13_L001_merged.fastq.gz
+Extracted 78.4% (24206/30865)	 sequences, 99.9% forward (2), 0014-mifish_S16_L001_merged.fastq.gz
+Extracted 57.8% (22328/38614)	 sequences, 99.9% forward (5), 0004-mifish_S6_L001_merged.fastq.gz
+Extracted 43.3% (12845/29648)	 sequences, 99.9% forward (1), 0012-mifish_S14_L001_merged.fastq.gz
+Extracted 43.6% (13348/30611)	 sequences, 99.9% forward (12), 0002-mifish_S4_L001_merged.fastq.gz
+Extracted 74.3% (30301/40758)	 sequences, 99.9% forward (11), 0008-mifish_S10_L001_merged.fastq.gz
+Extracted 80.2% (38365/47835)	 sequences, 99.9% forward (3), 0009-mifish_S11_L001_merged.fastq.gz
+Extracted 75.0% (31745/42281)	 sequences, 99.9% forward (5), 0010-mifish_S12_L001_merged.fastq.gz
+Extracted 55.2% (26315/47665)	 sequences, 99.9% forward (5), 0001-mifish_S3_L001_merged.fastq.gz
+Extracted 57.3% (24612/42913)	 sequences, 99.9% forward (4), 0016-mifish_S18_L001_merged.fastq.gz
+Extracted 87.9% (50602/57563)	 sequences, 99.9% forward (4), 0018-mifish_S20_L001_merged.fastq.gz
+Extracted 69.6% (12262/17615)	 sequences, 99.9% forward (6), 0007-mifish_S9_L001_merged.fastq.gz
+Extracted 85.8% (19945/23229)	 sequences, 99.9% forward (15), 0005-mifish_S7_L001_merged.fastq.gz
+Extracted 99.9% (80388/80460)	 sequences, 100% forward (0), 12s-blindspot_L001_merged.fastq.gz
+Extracted 99.9% (77858/77920)	 sequences, 100% forward (0), 12s-allalberta_L001_merged.fastq.gz
+Extracted 99.9% (78149/78205)	 sequences, 100% forward (0), 12s-mix_L001_merged.fastq.gz
+Extracted 99.9% (40134/40145)	 sequences, 100% forward (0), 12s-richplusevenlow_L001_merged.fastq.gz
+Extracted 99.9% (40134/40148)	 sequences, 100% forward (0), 12s-richlowevenlow_L001_merged.fastq.gz
+Extracted 99.9% (40120/40125)	 sequences, 100% forward (0), 12s-richlowevenplus_L001_merged.fastq.gz
+Extracted 99.9% (80394/80448)	 sequences, 100% forward (0), 12s-lowrelat_L001_merged.fastq.gz
+Extracted 99.9% (40157/40161)	 sequences, 100% forward (0), 12s-richplusevenplus_L001_merged.fastq.gz
+
+BARQUE: Chimeras removal step
+Amplicon: 12s200pb
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0006-mifish_S8_L001_merged_12s200pb.fastq.fasta 100%
+3168930 nt in 18708 seqs, min 149, max 182, avg 169
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 970 Size min 1, max 3644, avg 19.3
+Singletons: 697, 3.7% of seqs, 71.9% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0005-mifish_S7_L001_merged_12s200pb.fastq.fasta 100%
+3453677 nt in 19946 seqs, min 162, max 179, avg 173
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 908 Size min 1, max 10424, avg 22.0
+Singletons: 633, 3.2% of seqs, 69.7% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0016-mifish_S18_L001_merged_12s200pb.fastq.fasta 100%
+4192144 nt in 24613 seqs, min 160, max 179, avg 170
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1345 Size min 1, max 4823, avg 18.3
+Singletons: 1004, 4.1% of seqs, 74.6% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0014-mifish_S16_L001_merged_12s200pb.fastq.fasta 100%
+4068707 nt in 24207 seqs, min 159, max 179, avg 168
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1192 Size min 1, max 4008, avg 20.3
+Singletons: 890, 3.7% of seqs, 74.7% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0004-mifish_S6_L001_merged_12s200pb.fastq.fasta 100%
+3761958 nt in 22329 seqs, min 156, max 187, avg 168
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1184 Size min 1, max 5376, avg 18.9
+Singletons: 882, 4.0% of seqs, 74.5% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0001-mifish_S3_L001_merged_12s200pb.fastq.fasta 100%
+4554804 nt in 26316 seqs, min 163, max 179, avg 173
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 753 Size min 1, max 18893, avg 34.9
+Singletons: 452, 1.7% of seqs, 60.0% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0008-mifish_S10_L001_merged_12s200pb.fastq.fasta 100%
+5225623 nt in 30302 seqs, min 150, max 186, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1262 Size min 1, max 14839, avg 24.0
+Singletons: 842, 2.8% of seqs, 66.7% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0011-mifish_S13_L001_merged_12s200pb.fastq.fasta 100%
+4905038 nt in 28442 seqs, min 160, max 179, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1281 Size min 1, max 9598, avg 22.2
+Singletons: 912, 3.2% of seqs, 71.2% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0010-mifish_S12_L001_merged_12s200pb.fastq.fasta 100%
+5416470 nt in 31746 seqs, min 161, max 179, avg 171
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1507 Size min 1, max 7133, avg 21.1
+Singletons: 1077, 3.4% of seqs, 71.5% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0012-mifish_S14_L001_merged_12s200pb.fastq.fasta 100%
+2213907 nt in 12846 seqs, min 161, max 179, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 529 Size min 1, max 8135, avg 24.3
+Singletons: 388, 3.0% of seqs, 73.3% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0003-mifish_S5_L001_merged_12s200pb.fastq.fasta 100%
+4994969 nt in 28966 seqs, min 161, max 187, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1062 Size min 1, max 14578, avg 27.3
+Singletons: 670, 2.3% of seqs, 63.1% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0002-mifish_S4_L001_merged_12s200pb.fastq.fasta 100%
+2292088 nt in 13349 seqs, min 161, max 185, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 636 Size min 1, max 6110, avg 21.0
+Singletons: 463, 3.5% of seqs, 72.8% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-richlowevenlow_L001_merged_12s200pb.fastq.fasta 100%
+6713882 nt in 40135 seqs, min 163, max 170, avg 167
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1060 Size min 1, max 9025, avg 37.9
+Singletons: 802, 2.0% of seqs, 75.7% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-richplusevenplus_L001_merged_12s200pb.fastq.fasta 100%
+6759906 nt in 40158 seqs, min 162, max 176, avg 168
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1219 Size min 1, max 2442, avg 32.9
+Singletons: 1080, 2.7% of seqs, 88.6% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0013-mifish_S15_L001_merged_12s200pb.fastq.fasta 100%
+2995193 nt in 17449 seqs, min 161, max 184, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 929 Size min 1, max 6298, avg 18.8
+Singletons: 688, 3.9% of seqs, 74.1% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0017-mifish_S19_L001_merged_12s200pb.fastq.fasta 100%
+1739079 nt in 10118 seqs, min 163, max 179, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 543 Size min 1, max 5362, avg 18.6
+Singletons: 407, 4.0% of seqs, 75.0% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0015-mifish_S17_L001_merged_12s200pb.fastq.fasta 100%
+3035008 nt in 17658 seqs, min 161, max 182, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 897 Size min 1, max 5992, avg 19.7
+Singletons: 659, 3.7% of seqs, 73.5% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-richlowevenplus_L001_merged_12s200pb.fastq.fasta 100%
+6718541 nt in 40121 seqs, min 162, max 170, avg 167
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1082 Size min 1, max 4779, avg 37.1
+Singletons: 874, 2.2% of seqs, 80.8% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0007-mifish_S9_L001_merged_12s200pb.fastq.fasta 100%
+2087465 nt in 12263 seqs, min 149, max 179, avg 170
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 753 Size min 1, max 2952, avg 16.3
+Singletons: 560, 4.6% of seqs, 74.4% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-richplusevenlow_L001_merged_12s200pb.fastq.fasta 100%
+6740448 nt in 40135 seqs, min 162, max 174, avg 168
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1237 Size min 1, max 4490, avg 32.4
+Singletons: 1074, 2.7% of seqs, 86.8% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0009-mifish_S11_L001_merged_12s200pb.fastq.fasta 100%
+6566681 nt in 38366 seqs, min 159, max 186, avg 171
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1564 Size min 1, max 10042, avg 24.5
+Singletons: 1067, 2.8% of seqs, 68.2% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0018-mifish_S20_L001_merged_12s200pb.fastq.fasta 100%
+8706511 nt in 50603 seqs, min 160, max 179, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1963 Size min 1, max 22126, avg 25.8
+Singletons: 1380, 2.7% of seqs, 70.3% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-mix_L001_merged_12s200pb.fastq.fasta 100%
+13231720 nt in 78150 seqs, min 161, max 179, avg 169
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 3984 Size min 1, max 1059, avg 19.6
+Singletons: 3733, 4.8% of seqs, 93.7% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-allalberta_L001_merged_12s200pb.fastq.fasta 100%
+13196930 nt in 77859 seqs, min 160, max 179, avg 169
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 3882 Size min 1, max 1227, avg 20.1
+Singletons: 3605, 4.6% of seqs, 92.9% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-blindspot_L001_merged_12s200pb.fastq.fasta 100%
+13526693 nt in 80389 seqs, min 161, max 176, avg 168
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 3269 Size min 1, max 5095, avg 24.6
+Singletons: 2530, 3.1% of seqs, 77.4% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-lowrelat_L001_merged_12s200pb.fastq.fasta 100%
+13655812 nt in 80395 seqs, min 159, max 180, avg 170
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 3472 Size min 1, max 5096, avg 23.2
+Singletons: 2663, 3.3% of seqs, 76.7% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-richplusevenlow_L001_merged_12s200pb.fastq.fasta.unique 100%
+207790 nt in 1237 seqs, min 163, max 174, avg 168
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 1 (0.1%) chimeras, 1236 (99.9%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1237 unique sequences.
+Taking abundance information into account, this corresponds to
+2 (0.0%) chimeras, 40133 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 40135 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0013-mifish_S15_L001_merged_12s200pb.fastq.fasta.unique 100%
+158972 nt in 929 seqs, min 162, max 184, avg 171
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 76 (8.2%) chimeras, 853 (91.8%) non-chimeras,
+and 0 (0.0%) borderline sequences in 929 unique sequences.
+Taking abundance information into account, this corresponds to
+179 (1.0%) chimeras, 17270 (99.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 17449 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0006-mifish_S8_L001_merged_12s200pb.fastq.fasta.unique 100%
+164481 nt in 970 seqs, min 149, max 182, avg 170
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 67 (6.9%) chimeras, 903 (93.1%) non-chimeras,
+and 0 (0.0%) borderline sequences in 970 unique sequences.
+Taking abundance information into account, this corresponds to
+128 (0.7%) chimeras, 18580 (99.3%) non-chimeras,
+and 0 (0.0%) borderline sequences in 18708 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-richlowevenplus_L001_merged_12s200pb.fastq.fasta.unique 100%
+181153 nt in 1082 seqs, min 164, max 170, avg 167
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 1 (0.1%) chimeras, 1081 (99.9%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1082 unique sequences.
+Taking abundance information into account, this corresponds to
+1 (0.0%) chimeras, 40120 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 40121 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0005-mifish_S7_L001_merged_12s200pb.fastq.fasta.unique 100%
+156746 nt in 908 seqs, min 165, max 179, avg 173
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 94 (10.4%) chimeras, 814 (89.6%) non-chimeras,
+and 0 (0.0%) borderline sequences in 908 unique sequences.
+Taking abundance information into account, this corresponds to
+451 (2.3%) chimeras, 19495 (97.7%) non-chimeras,
+and 0 (0.0%) borderline sequences in 19946 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-richplusevenplus_L001_merged_12s200pb.fastq.fasta.unique 100%
+205186 nt in 1219 seqs, min 163, max 174, avg 168
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 3 (0.2%) chimeras, 1216 (99.8%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1219 unique sequences.
+Taking abundance information into account, this corresponds to
+3 (0.0%) chimeras, 40155 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 40158 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-richlowevenlow_L001_merged_12s200pb.fastq.fasta.unique 100%
+177311 nt in 1060 seqs, min 163, max 170, avg 167
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 0 (0.0%) chimeras, 1060 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1060 unique sequences.
+Taking abundance information into account, this corresponds to
+0 (0.0%) chimeras, 40135 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 40135 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0011-mifish_S13_L001_merged_12s200pb.fastq.fasta.unique 100%
+220119 nt in 1281 seqs, min 160, max 179, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 115 (9.0%) chimeras, 1166 (91.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1281 unique sequences.
+Taking abundance information into account, this corresponds to
+325 (1.1%) chimeras, 28117 (98.9%) non-chimeras,
+and 0 (0.0%) borderline sequences in 28442 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0016-mifish_S18_L001_merged_12s200pb.fastq.fasta.unique 100%
+228636 nt in 1345 seqs, min 160, max 179, avg 170
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 102 (7.6%) chimeras, 1243 (92.4%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1345 unique sequences.
+Taking abundance information into account, this corresponds to
+161 (0.7%) chimeras, 24452 (99.3%) non-chimeras,
+and 0 (0.0%) borderline sequences in 24613 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0014-mifish_S16_L001_merged_12s200pb.fastq.fasta.unique 100%
+200487 nt in 1192 seqs, min 161, max 179, avg 168
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 75 (6.3%) chimeras, 1117 (93.7%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1192 unique sequences.
+Taking abundance information into account, this corresponds to
+121 (0.5%) chimeras, 24086 (99.5%) non-chimeras,
+and 0 (0.0%) borderline sequences in 24207 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0004-mifish_S6_L001_merged_12s200pb.fastq.fasta.unique 100%
+199770 nt in 1184 seqs, min 156, max 179, avg 169
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 99 (8.4%) chimeras, 1085 (91.6%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1184 unique sequences.
+Taking abundance information into account, this corresponds to
+215 (1.0%) chimeras, 22114 (99.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 22329 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0012-mifish_S14_L001_merged_12s200pb.fastq.fasta.unique 100%
+90614 nt in 529 seqs, min 163, max 179, avg 171
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 17 (3.2%) chimeras, 512 (96.8%) non-chimeras,
+and 0 (0.0%) borderline sequences in 529 unique sequences.
+Taking abundance information into account, this corresponds to
+34 (0.3%) chimeras, 12812 (99.7%) non-chimeras,
+and 0 (0.0%) borderline sequences in 12846 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0003-mifish_S5_L001_merged_12s200pb.fastq.fasta.unique 100%
+182628 nt in 1062 seqs, min 163, max 187, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 103 (9.7%) chimeras, 959 (90.3%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1062 unique sequences.
+Taking abundance information into account, this corresponds to
+447 (1.5%) chimeras, 28519 (98.5%) non-chimeras,
+and 0 (0.0%) borderline sequences in 28966 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0010-mifish_S12_L001_merged_12s200pb.fastq.fasta.unique 100%
+256434 nt in 1507 seqs, min 162, max 179, avg 170
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 108 (7.2%) chimeras, 1399 (92.8%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1507 unique sequences.
+Taking abundance information into account, this corresponds to
+303 (1.0%) chimeras, 31443 (99.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 31746 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0001-mifish_S3_L001_merged_12s200pb.fastq.fasta.unique 100%
+129618 nt in 753 seqs, min 164, max 179, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 32 (4.2%) chimeras, 721 (95.8%) non-chimeras,
+and 0 (0.0%) borderline sequences in 753 unique sequences.
+Taking abundance information into account, this corresponds to
+152 (0.6%) chimeras, 26164 (99.4%) non-chimeras,
+and 0 (0.0%) borderline sequences in 26316 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0009-mifish_S11_L001_merged_12s200pb.fastq.fasta.unique 100%
+266948 nt in 1564 seqs, min 159, max 179, avg 171
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 115 (7.4%) chimeras, 1449 (92.6%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1564 unique sequences.
+Taking abundance information into account, this corresponds to
+299 (0.8%) chimeras, 38067 (99.2%) non-chimeras,
+and 0 (0.0%) borderline sequences in 38366 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0017-mifish_S19_L001_merged_12s200pb.fastq.fasta.unique 100%
+92962 nt in 543 seqs, min 163, max 179, avg 171
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 28 (5.2%) chimeras, 515 (94.8%) non-chimeras,
+and 0 (0.0%) borderline sequences in 543 unique sequences.
+Taking abundance information into account, this corresponds to
+45 (0.4%) chimeras, 10073 (99.6%) non-chimeras,
+and 0 (0.0%) borderline sequences in 10118 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0008-mifish_S10_L001_merged_12s200pb.fastq.fasta.unique 100%
+216629 nt in 1262 seqs, min 160, max 186, avg 172
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 97 (7.7%) chimeras, 1165 (92.3%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1262 unique sequences.
+Taking abundance information into account, this corresponds to
+300 (1.0%) chimeras, 30002 (99.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 30302 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0002-mifish_S4_L001_merged_12s200pb.fastq.fasta.unique 100%
+108904 nt in 636 seqs, min 164, max 185, avg 171
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 31 (4.9%) chimeras, 605 (95.1%) non-chimeras,
+and 0 (0.0%) borderline sequences in 636 unique sequences.
+Taking abundance information into account, this corresponds to
+63 (0.5%) chimeras, 13286 (99.5%) non-chimeras,
+and 0 (0.0%) borderline sequences in 13349 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0007-mifish_S9_L001_merged_12s200pb.fastq.fasta.unique 100%
+128152 nt in 753 seqs, min 149, max 179, avg 170
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 62 (8.2%) chimeras, 691 (91.8%) non-chimeras,
+and 0 (0.0%) borderline sequences in 753 unique sequences.
+Taking abundance information into account, this corresponds to
+138 (1.1%) chimeras, 12125 (98.9%) non-chimeras,
+and 0 (0.0%) borderline sequences in 12263 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0015-mifish_S17_L001_merged_12s200pb.fastq.fasta.unique 100%
+153711 nt in 897 seqs, min 163, max 182, avg 171
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 59 (6.6%) chimeras, 838 (93.4%) non-chimeras,
+and 0 (0.0%) borderline sequences in 897 unique sequences.
+Taking abundance information into account, this corresponds to
+140 (0.8%) chimeras, 17518 (99.2%) non-chimeras,
+and 0 (0.0%) borderline sequences in 17658 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/0018-mifish_S20_L001_merged_12s200pb.fastq.fasta.unique 100%
+336162 nt in 1963 seqs, min 160, max 179, avg 171
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 213 (10.9%) chimeras, 1750 (89.1%) non-chimeras,
+and 0 (0.0%) borderline sequences in 1963 unique sequences.
+Taking abundance information into account, this corresponds to
+791 (1.6%) chimeras, 49812 (98.4%) non-chimeras,
+and 0 (0.0%) borderline sequences in 50603 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-blindspot_L001_merged_12s200pb.fastq.fasta.unique 100%
+550452 nt in 3269 seqs, min 161, max 175, avg 168
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 2 (0.1%) chimeras, 3267 (99.9%) non-chimeras,
+and 0 (0.0%) borderline sequences in 3269 unique sequences.
+Taking abundance information into account, this corresponds to
+2 (0.0%) chimeras, 80387 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 80389 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-lowrelat_L001_merged_12s200pb.fastq.fasta.unique 100%
+590457 nt in 3472 seqs, min 161, max 180, avg 170
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 0 (0.0%) chimeras, 3472 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 3472 unique sequences.
+Taking abundance information into account, this corresponds to
+0 (0.0%) chimeras, 80395 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 80395 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-allalberta_L001_merged_12s200pb.fastq.fasta.unique 100%
+658649 nt in 3882 seqs, min 162, max 179, avg 170
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 1 (0.0%) chimeras, 3881 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 3882 unique sequences.
+Taking abundance information into account, this corresponds to
+1 (0.0%) chimeras, 77858 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 77859 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-mix_L001_merged_12s200pb.fastq.fasta.unique 100%
+674903 nt in 3984 seqs, min 161, max 179, avg 169
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 4 (0.1%) chimeras, 3980 (99.9%) non-chimeras,
+and 0 (0.0%) borderline sequences in 3984 unique sequences.
+Taking abundance information into account, this corresponds to
+4 (0.0%) chimeras, 78146 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 78150 total sequences.
+
+BARQUE: Running vsearch
+Amplicon: 12s200pb
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 03_databases/12S.fasta.gz 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Masking 100%
+Counting k-mers 100%
+Creating k-mer index 100%
+Writing UDB file 100%
+
+#############################
+# Using database: 12S.fasta.gz
+#############################
+
+
+Running vsearch on 0001-mifish_S3_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 720 of 721 (99.86%)
+done
+--
+
+
+Running vsearch on 0002-mifish_S4_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 602 of 605 (99.50%)
+done
+--
+
+
+Running vsearch on 0003-mifish_S5_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 957 of 959 (99.79%)
+done
+--
+
+
+Running vsearch on 0004-mifish_S6_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1080 of 1085 (99.54%)
+done
+--
+
+
+Running vsearch on 0005-mifish_S7_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 813 of 814 (99.88%)
+done
+--
+
+
+Running vsearch on 0006-mifish_S8_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 900 of 903 (99.67%)
+done
+--
+
+
+Running vsearch on 0007-mifish_S9_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 688 of 691 (99.57%)
+done
+--
+
+
+Running vsearch on 0008-mifish_S10_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1162 of 1165 (99.74%)
+done
+--
+
+
+Running vsearch on 0009-mifish_S11_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1446 of 1449 (99.79%)
+done
+--
+
+
+Running vsearch on 0010-mifish_S12_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1397 of 1399 (99.86%)
+done
+--
+
+
+Running vsearch on 0011-mifish_S13_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1163 of 1166 (99.74%)
+done
+--
+
+
+Running vsearch on 0012-mifish_S14_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 508 of 512 (99.22%)
+done
+--
+
+
+Running vsearch on 0013-mifish_S15_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 850 of 853 (99.65%)
+done
+--
+
+
+Running vsearch on 0014-mifish_S16_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1116 of 1117 (99.91%)
+done
+--
+
+
+Running vsearch on 0015-mifish_S17_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 835 of 838 (99.64%)
+done
+--
+
+
+Running vsearch on 0016-mifish_S18_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1241 of 1243 (99.84%)
+done
+--
+
+
+Running vsearch on 0017-mifish_S19_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 512 of 515 (99.42%)
+done
+--
+
+
+Running vsearch on 0018-mifish_S20_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1747 of 1750 (99.83%)
+done
+--
+
+
+Running vsearch on 12s-allalberta_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 3880 of 3881 (99.97%)
+done
+--
+
+
+Running vsearch on 12s-blindspot_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 3266 of 3267 (99.97%)
+done
+--
+
+
+Running vsearch on 12s-lowrelat_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 3471 of 3472 (99.97%)
+done
+--
+
+
+Running vsearch on 12s-mix_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 3966 of 3980 (99.65%)
+done
+--
+
+
+Running vsearch on 12s-richlowevenlow_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1059 of 1060 (99.91%)
+done
+--
+
+
+Running vsearch on 12s-richlowevenplus_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1080 of 1081 (99.91%)
+done
+--
+
+
+Running vsearch on 12s-richplusevenlow_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1235 of 1236 (99.92%)
+done
+--
+
+
+Running vsearch on 12s-richplusevenplus_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 1215 of 1216 (99.92%)
+done
+--
+
+gzip: No such file or directory
+gzip: 09_vsearch/matched:: No such file or directory
+
+BARQUE: Summarizing results
+  0001-mifish  0002-mifish  0003-mifish  0004-mifish  0005-mifish  0006-mifish  0007-mifish  0008-mifish  0009-mifish  0010-mifish  0011-mifish  0012-mifish  0013-mifish  0014-mifish  0015-mifish  0016-mifish  0017-mifish  0018-mifish  12s-allalberta  12s-blindspot  12s-lowrelat  12s-mix  12s-richlowevenlow  12s-richlowevenplus  12s-richplusevenlow  12s-richplusevenplus
+
+BARQUE: Looking at sequence dropout
+
+BARQUE: Finding most frequent non-annotated sequences
+ls: cannot access '09_vsearch/matched_*': No such file or directory
+gzip: 08_chimeras/matched_*_unique.fasta.gz: No such file or directory
+
+BARQUE: Skipping OTU creation
+
+BARQUE: Extracting sequence groups from multiple hits
+Traceback (most recent call last):
+  File "/home/kvilleneuve/fish_edna/code/barque_12s/./01_scripts/12_extract_multiple_hit_sequences.py", line 161, in <module>
+    with myopen("12_results/01_multihits/" + primer[0] + f"_multihit_{multihit_num:04d}_" + multihit_genus + ".fasta", "wt") as outfile:
+  File "/home/kvilleneuve/fish_edna/code/barque_12s/./01_scripts/12_extract_multiple_hit_sequences.py", line 36, in myopen
+    return open(_file, mode=mode)
+FileNotFoundError: [Errno 2] No such file or directory: '12_results/01_multihits/12s200pb_multihit_0001_Carassius.fasta'
+
+BARQUE: Creating figures of hit similarity per species and site
+Error in plot.new() : 
+  could not open file '12_results/02_figures_hit_similarity/similarity_Acipenseridae_Acipenser_fulvescens.png'
+Calls: plot ... boxplot.default -> do.call -> <Anonymous> -> plot.new
+Execution halted
+
+BARQUE: Run completed

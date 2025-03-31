@@ -1,0 +1,265 @@
+Method,Sample,Group_taxonomy,Total_asv
+12S - Barque - VSEARCH - Curated,0001,Alberta fish,25000
+12S - Barque - VSEARCH - Curated,0002,Alberta fish,12684
+12S - Barque - VSEARCH - Curated,0003,Alberta fish,23392
+12S - Barque - VSEARCH - Curated,0004,Alberta fish,14844
+12S - Barque - VSEARCH - Curated,0005,Alberta fish,17330
+12S - Barque - VSEARCH - Curated,0006,Alberta fish,17619
+12S - Barque - VSEARCH - Curated,0007,Alberta fish,11418
+12S - Barque - VSEARCH - Curated,0008,Alberta fish,27288
+12S - Barque - VSEARCH - Curated,0009,Alberta fish,36601
+12S - Barque - VSEARCH - Curated,0010,Alberta fish,29982
+12S - Barque - VSEARCH - Curated,0011,Alberta fish,26961
+12S - Barque - VSEARCH - Curated,0012,Alberta fish,11829
+12S - Barque - VSEARCH - Curated,0013,Alberta fish,16062
+12S - Barque - VSEARCH - Curated,0014,Alberta fish,19522
+12S - Barque - VSEARCH - Curated,0015,Alberta fish,16156
+12S - Barque - VSEARCH - Curated,0016,Alberta fish,23068
+12S - Barque - VSEARCH - Curated,0017,Alberta fish,9427
+12S - Barque - VSEARCH - Curated,0018,Alberta fish,47509
+12S - Barque - VSEARCH - Non-curated,0001,Alberta fish,25000
+12S - Barque - VSEARCH - Non-curated,0002,Alberta fish,12684
+12S - Barque - VSEARCH - Non-curated,0003,Alberta fish,23424
+12S - Barque - VSEARCH - Non-curated,0003,Non-fish,8
+12S - Barque - VSEARCH - Non-curated,0004,Alberta fish,9878
+12S - Barque - VSEARCH - Non-curated,0005,Alberta fish,17207
+12S - Barque - VSEARCH - Non-curated,0005,Non-Alberta,941
+12S - Barque - VSEARCH - Non-curated,0006,Alberta fish,17619
+12S - Barque - VSEARCH - Non-curated,0006,Non-Alberta,18
+12S - Barque - VSEARCH - Non-curated,0007,Alberta fish,11413
+12S - Barque - VSEARCH - Non-curated,0008,Alberta fish,27311
+12S - Barque - VSEARCH - Non-curated,0008,Non-Alberta,1576
+12S - Barque - VSEARCH - Non-curated,0009,Alberta fish,35829
+12S - Barque - VSEARCH - Non-curated,0009,Non-fish,9
+12S - Barque - VSEARCH - Non-curated,0010,Alberta fish,29985
+12S - Barque - VSEARCH - Non-curated,0010,Non-fish,6
+12S - Barque - VSEARCH - Non-curated,0011,Alberta fish,26964
+12S - Barque - VSEARCH - Non-curated,0011,Non-fish,6
+12S - Barque - VSEARCH - Non-curated,0012,Alberta fish,11829
+12S - Barque - VSEARCH - Non-curated,0013,Alberta fish,15770
+12S - Barque - VSEARCH - Non-curated,0013,Non-fish,71
+12S - Barque - VSEARCH - Non-curated,0014,Alberta fish,15397
+12S - Barque - VSEARCH - Non-curated,0014,Non-fish,141
+12S - Barque - VSEARCH - Non-curated,0015,Alberta fish,15905
+12S - Barque - VSEARCH - Non-curated,0015,Non-fish,10
+12S - Barque - VSEARCH - Non-curated,0016,Alberta fish,22029
+12S - Barque - VSEARCH - Non-curated,0016,Non-fish,5
+12S - Barque - VSEARCH - Non-curated,0017,Alberta fish,8386
+12S - Barque - VSEARCH - Non-curated,0017,Non-Alberta,8
+12S - Barque - VSEARCH - Non-curated,0018,Alberta fish,47509
+12S - DADA2 - RDP - Curated,0001,Alberta fish,25681
+12S - DADA2 - RDP - Curated,0001,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0002,Alberta fish,13037
+12S - DADA2 - RDP - Curated,0002,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0003,Alberta fish,25635
+12S - DADA2 - RDP - Curated,0003,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0004,Alberta fish,16161
+12S - DADA2 - RDP - Curated,0004,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0005,Alberta fish,17718
+12S - DADA2 - RDP - Curated,0005,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0006,Alberta fish,18122
+12S - DADA2 - RDP - Curated,0006,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0007,Alberta fish,11833
+12S - DADA2 - RDP - Curated,0007,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0008,Alberta fish,28220
+12S - DADA2 - RDP - Curated,0008,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0009,Alberta fish,35957
+12S - DADA2 - RDP - Curated,0009,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0010,Alberta fish,30731
+12S - DADA2 - RDP - Curated,0010,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0011,Alberta fish,27456
+12S - DADA2 - RDP - Curated,0011,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0012,Alberta fish,12596
+12S - DADA2 - RDP - Curated,0012,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0013,Alberta fish,16529
+12S - DADA2 - RDP - Curated,0013,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0014,Alberta fish,15884
+12S - DADA2 - RDP - Curated,0014,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0015,Alberta fish,16367
+12S - DADA2 - RDP - Curated,0015,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0016,Alberta fish,22677
+12S - DADA2 - RDP - Curated,0016,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0017,Alberta fish,8805
+12S - DADA2 - RDP - Curated,0017,Non-Alberta,0
+12S - DADA2 - RDP - Curated,0018,Alberta fish,47734
+12S - DADA2 - RDP - Curated,0018,Non-Alberta,0
+12S - DADA2 - RDP - Non-curated,0001,Alberta fish,25127
+12S - DADA2 - RDP - Non-curated,0001,Non-Alberta,0
+12S - DADA2 - RDP - Non-curated,0002,Alberta fish,12769
+12S - DADA2 - RDP - Non-curated,0002,Non-Alberta,268
+12S - DADA2 - RDP - Non-curated,0003,Alberta fish,21647
+12S - DADA2 - RDP - Non-curated,0003,Non-Alberta,0
+12S - DADA2 - RDP - Non-curated,0004,Alberta fish,8562
+12S - DADA2 - RDP - Non-curated,0004,Non-Alberta,149
+12S - DADA2 - RDP - Non-curated,0005,Alberta fish,14651
+12S - DADA2 - RDP - Non-curated,0005,Non-Alberta,985
+12S - DADA2 - RDP - Non-curated,0006,Alberta fish,14456
+12S - DADA2 - RDP - Non-curated,0006,Non-Alberta,3686
+12S - DADA2 - RDP - Non-curated,0007,Alberta fish,8952
+12S - DADA2 - RDP - Non-curated,0007,Non-Alberta,2534
+12S - DADA2 - RDP - Non-curated,0008,Alberta fish,26876
+12S - DADA2 - RDP - Non-curated,0008,Non-Alberta,1919
+12S - DADA2 - RDP - Non-curated,0009,Alberta fish,29687
+12S - DADA2 - RDP - Non-curated,0009,Non-Alberta,6274
+12S - DADA2 - RDP - Non-curated,0010,Alberta fish,26626
+12S - DADA2 - RDP - Non-curated,0010,Non-Alberta,4107
+12S - DADA2 - RDP - Non-curated,0011,Alberta fish,25853
+12S - DADA2 - RDP - Non-curated,0011,Non-Alberta,1089
+12S - DADA2 - RDP - Non-curated,0012,Alberta fish,11353
+12S - DADA2 - RDP - Non-curated,0012,Non-Alberta,722
+12S - DADA2 - RDP - Non-curated,0013,Alberta fish,15316
+12S - DADA2 - RDP - Non-curated,0013,Non-Alberta,753
+12S - DADA2 - RDP - Non-curated,0014,Alberta fish,12110
+12S - DADA2 - RDP - Non-curated,0014,Non-Alberta,3411
+12S - DADA2 - RDP - Non-curated,0015,Alberta fish,14960
+12S - DADA2 - RDP - Non-curated,0015,Non-Alberta,864
+12S - DADA2 - RDP - Non-curated,0016,Alberta fish,20121
+12S - DADA2 - RDP - Non-curated,0016,Non-Alberta,1327
+12S - DADA2 - RDP - Non-curated,0017,Alberta fish,7839
+12S - DADA2 - RDP - Non-curated,0017,Non-Alberta,321
+12S - DADA2 - RDP - Non-curated,0018,Alberta fish,46036
+12S - DADA2 - RDP - Non-curated,0018,Non-Alberta,2
+COI - Barque - VSEARCH - Curated,0001,Alberta fish,24
+COI - Barque - VSEARCH - Curated,0002,Alberta fish,19
+COI - Barque - VSEARCH - Curated,0003,Alberta fish,226
+COI - Barque - VSEARCH - Curated,0004,Alberta fish,21
+COI - Barque - VSEARCH - Curated,0005,Alberta fish,222
+COI - Barque - VSEARCH - Curated,0006,Alberta fish,4
+COI - Barque - VSEARCH - Curated,0007,Alberta fish,28
+COI - Barque - VSEARCH - Curated,0008,Alberta fish,17
+COI - Barque - VSEARCH - Curated,0009,Alberta fish,44
+COI - Barque - VSEARCH - Curated,0010,Alberta fish,35
+COI - Barque - VSEARCH - Curated,0011,Alberta fish,8
+COI - Barque - VSEARCH - Curated,0012,Alberta fish,12
+COI - Barque - VSEARCH - Curated,0013,Alberta fish,24
+COI - Barque - VSEARCH - Curated,0014,Alberta fish,7
+COI - Barque - VSEARCH - Curated,0015,Alberta fish,16
+COI - Barque - VSEARCH - Curated,0016,Alberta fish,18
+COI - Barque - VSEARCH - Curated,0017,Alberta fish,24
+COI - Barque - VSEARCH - Curated,0018,Alberta fish,198
+COI - Barque - VSEARCH - Non-curated,0001,Alberta fish,24
+COI - Barque - VSEARCH - Non-curated,0001,Non-fish,4
+COI - Barque - VSEARCH - Non-curated,0002,Alberta fish,19
+COI - Barque - VSEARCH - Non-curated,0002,Non-fish,20
+COI - Barque - VSEARCH - Non-curated,0003,Alberta fish,241
+COI - Barque - VSEARCH - Non-curated,0003,Non-fish,64
+COI - Barque - VSEARCH - Non-curated,0004,Alberta fish,26
+COI - Barque - VSEARCH - Non-curated,0004,Non-fish,61
+COI - Barque - VSEARCH - Non-curated,0005,Alberta fish,222
+COI - Barque - VSEARCH - Non-curated,0005,Non-fish,41
+COI - Barque - VSEARCH - Non-curated,0006,Alberta fish,4
+COI - Barque - VSEARCH - Non-curated,0006,Non-fish,17
+COI - Barque - VSEARCH - Non-curated,0007,Alberta fish,28
+COI - Barque - VSEARCH - Non-curated,0007,Non-fish,29
+COI - Barque - VSEARCH - Non-curated,0008,Alberta fish,17
+COI - Barque - VSEARCH - Non-curated,0008,Non-fish,4
+COI - Barque - VSEARCH - Non-curated,0009,Alberta fish,44
+COI - Barque - VSEARCH - Non-curated,0009,Non-fish,67
+COI - Barque - VSEARCH - Non-curated,0010,Alberta fish,31
+COI - Barque - VSEARCH - Non-curated,0010,Non-Alberta,4
+COI - Barque - VSEARCH - Non-curated,0010,Non-fish,78
+COI - Barque - VSEARCH - Non-curated,0011,Alberta fish,8
+COI - Barque - VSEARCH - Non-curated,0011,Non-fish,43
+COI - Barque - VSEARCH - Non-curated,0012,Alberta fish,12
+COI - Barque - VSEARCH - Non-curated,0012,Non-fish,13
+COI - Barque - VSEARCH - Non-curated,0013,Alberta fish,24
+COI - Barque - VSEARCH - Non-curated,0013,Non-fish,35
+COI - Barque - VSEARCH - Non-curated,0014,Alberta fish,11
+COI - Barque - VSEARCH - Non-curated,0014,Non-fish,9
+COI - Barque - VSEARCH - Non-curated,0015,Alberta fish,16
+COI - Barque - VSEARCH - Non-curated,0015,Non-fish,47
+COI - Barque - VSEARCH - Non-curated,0016,Alberta fish,14
+COI - Barque - VSEARCH - Non-curated,0016,Non-fish,46
+COI - Barque - VSEARCH - Non-curated,0017,Alberta fish,24
+COI - Barque - VSEARCH - Non-curated,0018,Alberta fish,198
+COI - Barque - VSEARCH - Non-curated,0018,Non-fish,48
+COI - DADA2 - RDP - Curated,0001,Alberta fish,63
+COI - DADA2 - RDP - Curated,0001,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0002,Alberta fish,38
+COI - DADA2 - RDP - Curated,0002,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0003,Alberta fish,242
+COI - DADA2 - RDP - Curated,0003,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0004,Alberta fish,1986
+COI - DADA2 - RDP - Curated,0004,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0005,Alberta fish,236
+COI - DADA2 - RDP - Curated,0005,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0006,Alberta fish,4
+COI - DADA2 - RDP - Curated,0006,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0007,Alberta fish,21
+COI - DADA2 - RDP - Curated,0007,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0008,Alberta fish,23
+COI - DADA2 - RDP - Curated,0008,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0009,Alberta fish,43
+COI - DADA2 - RDP - Curated,0009,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0010,Alberta fish,71
+COI - DADA2 - RDP - Curated,0010,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0011,Alberta fish,13
+COI - DADA2 - RDP - Curated,0011,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0012,Alberta fish,13
+COI - DADA2 - RDP - Curated,0012,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0013,Alberta fish,28
+COI - DADA2 - RDP - Curated,0013,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0014,Alberta fish,10
+COI - DADA2 - RDP - Curated,0014,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0015,Alberta fish,17
+COI - DADA2 - RDP - Curated,0015,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0016,Alberta fish,18
+COI - DADA2 - RDP - Curated,0016,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0017,Alberta fish,14
+COI - DADA2 - RDP - Curated,0017,Non-Alberta,0
+COI - DADA2 - RDP - Curated,0018,Alberta fish,228
+COI - DADA2 - RDP - Curated,0018,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0001,Alberta fish,31
+COI - DADA2 - RDP - Non-curated,0001,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0001,Non-fish,4
+COI - DADA2 - RDP - Non-curated,0002,Alberta fish,21
+COI - DADA2 - RDP - Non-curated,0002,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0002,Non-fish,16
+COI - DADA2 - RDP - Non-curated,0003,Alberta fish,260
+COI - DADA2 - RDP - Non-curated,0003,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0003,Non-fish,74
+COI - DADA2 - RDP - Non-curated,0004,Alberta fish,37
+COI - DADA2 - RDP - Non-curated,0004,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0004,Non-fish,2044
+COI - DADA2 - RDP - Non-curated,0005,Alberta fish,236
+COI - DADA2 - RDP - Non-curated,0005,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0005,Non-fish,109
+COI - DADA2 - RDP - Non-curated,0006,Alberta fish,4
+COI - DADA2 - RDP - Non-curated,0006,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0006,Non-fish,19
+COI - DADA2 - RDP - Non-curated,0007,Alberta fish,33
+COI - DADA2 - RDP - Non-curated,0007,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0007,Non-fish,32
+COI - DADA2 - RDP - Non-curated,0008,Alberta fish,23
+COI - DADA2 - RDP - Non-curated,0008,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0008,Non-fish,4
+COI - DADA2 - RDP - Non-curated,0009,Alberta fish,50
+COI - DADA2 - RDP - Non-curated,0009,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0009,Non-fish,83
+COI - DADA2 - RDP - Non-curated,0010,Alberta fish,40
+COI - DADA2 - RDP - Non-curated,0010,Non-Alberta,4
+COI - DADA2 - RDP - Non-curated,0010,Non-fish,82
+COI - DADA2 - RDP - Non-curated,0011,Alberta fish,13
+COI - DADA2 - RDP - Non-curated,0011,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0011,Non-fish,46
+COI - DADA2 - RDP - Non-curated,0012,Alberta fish,13
+COI - DADA2 - RDP - Non-curated,0012,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0012,Non-fish,8
+COI - DADA2 - RDP - Non-curated,0013,Alberta fish,28
+COI - DADA2 - RDP - Non-curated,0013,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0013,Non-fish,28
+COI - DADA2 - RDP - Non-curated,0014,Alberta fish,16
+COI - DADA2 - RDP - Non-curated,0014,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0014,Non-fish,5
+COI - DADA2 - RDP - Non-curated,0015,Alberta fish,20
+COI - DADA2 - RDP - Non-curated,0015,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0015,Non-fish,56
+COI - DADA2 - RDP - Non-curated,0016,Alberta fish,18
+COI - DADA2 - RDP - Non-curated,0016,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0016,Non-fish,48
+COI - DADA2 - RDP - Non-curated,0017,Alberta fish,28
+COI - DADA2 - RDP - Non-curated,0017,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0017,Non-fish,1
+COI - DADA2 - RDP - Non-curated,0018,Alberta fish,228
+COI - DADA2 - RDP - Non-curated,0018,Non-Alberta,0
+COI - DADA2 - RDP - Non-curated,0018,Non-fish,65

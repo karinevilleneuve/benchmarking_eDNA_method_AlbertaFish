@@ -1,0 +1,209 @@
+Method,Sample,variable,value
+12S<br>Barque<br>VSEARCH<br>Curated,All Alberta and other species of fish,Recall,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,All Alberta and other species of fish,Recall,0.839285714285714
+12S<br>DADA2<br>RDP<br>Curated,All Alberta and other species of fish,Recall,1
+12S<br>DADA2<br>RDP<br>Non-curated,All Alberta and other species of fish,Recall,0.75
+COI<br>Barque<br>VSEARCH<br>Curated,All Alberta and other species of fish,Recall,1
+COI<br>Barque<br>VSEARCH<br>Non-curated,All Alberta and other species of fish,Recall,0.573333333333333
+COI<br>DADA2<br>RDP<br>Curated,All Alberta and other species of fish,Recall,0.985294117647059
+COI<br>DADA2<br>RDP<br>Non-curated,All Alberta and other species of fish,Recall,0.675675675675676
+12S<br>Barque<br>VSEARCH<br>Curated,All Alberta fish species,Recall,0.983606557377049
+12S<br>Barque<br>VSEARCH<br>Non-curated,All Alberta fish species,Recall,0.737704918032787
+12S<br>DADA2<br>RDP<br>Curated,All Alberta fish species,Recall,0.983606557377049
+12S<br>DADA2<br>RDP<br>Non-curated,All Alberta fish species,Recall,0.540983606557377
+COI<br>Barque<br>VSEARCH<br>Curated,All Alberta fish species,Recall,0.985294117647059
+COI<br>Barque<br>VSEARCH<br>Non-curated,All Alberta fish species,Recall,0.647058823529412
+COI<br>DADA2<br>RDP<br>Curated,All Alberta fish species,Recall,0.970588235294118
+COI<br>DADA2<br>RDP<br>Non-curated,All Alberta fish species,Recall,0.735294117647059
+12S<br>Barque<br>VSEARCH<br>Curated,Community of species with low relatedness,Recall,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,Community of species with low relatedness,Recall,0.866666666666667
+12S<br>DADA2<br>RDP<br>Curated,Community of species with low relatedness,Recall,1
+12S<br>DADA2<br>RDP<br>Non-curated,Community of species with low relatedness,Recall,0.666666666666667
+COI<br>Barque<br>VSEARCH<br>Curated,Community of species with low relatedness,Recall,1
+COI<br>Barque<br>VSEARCH<br>Non-curated,Community of species with low relatedness,Recall,0.866666666666667
+COI<br>DADA2<br>RDP<br>Curated,Community of species with low relatedness,Recall,1
+COI<br>DADA2<br>RDP<br>Non-curated,Community of species with low relatedness,Recall,0.8
+12S<br>Barque<br>VSEARCH<br>Curated,Fish identified as taxonomic blindspot,Recall,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,Fish identified as taxonomic blindspot,Recall,0.866666666666667
+12S<br>DADA2<br>RDP<br>Curated,Fish identified as taxonomic blindspot,Recall,1
+12S<br>DADA2<br>RDP<br>Non-curated,Fish identified as taxonomic blindspot,Recall,0.666666666666667
+COI<br>Barque<br>VSEARCH<br>Curated,Fish identified as taxonomic blindspot,Recall,1
+COI<br>Barque<br>VSEARCH<br>Non-curated,Fish identified as taxonomic blindspot,Recall,0.933333333333333
+COI<br>DADA2<br>RDP<br>Curated,Fish identified as taxonomic blindspot,Recall,1
+COI<br>DADA2<br>RDP<br>Non-curated,Fish identified as taxonomic blindspot,Recall,0.933333333333333
+12S<br>Barque<br>VSEARCH<br>Curated,All Alberta and other species of fish,Precision,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,All Alberta and other species of fish,Precision,0.854545454545454
+12S<br>DADA2<br>RDP<br>Curated,All Alberta and other species of fish,Precision,1
+12S<br>DADA2<br>RDP<br>Non-curated,All Alberta and other species of fish,Precision,0.8
+COI<br>Barque<br>VSEARCH<br>Curated,All Alberta and other species of fish,Precision,1
+COI<br>Barque<br>VSEARCH<br>Non-curated,All Alberta and other species of fish,Precision,0.934782608695652
+COI<br>DADA2<br>RDP<br>Curated,All Alberta and other species of fish,Precision,1
+COI<br>DADA2<br>RDP<br>Non-curated,All Alberta and other species of fish,Precision,0.833333333333333
+12S<br>Barque<br>VSEARCH<br>Curated,All Alberta fish species,Precision,0.983606557377049
+12S<br>Barque<br>VSEARCH<br>Non-curated,All Alberta fish species,Precision,0.957446808510638
+12S<br>DADA2<br>RDP<br>Curated,All Alberta fish species,Precision,0.983606557377049
+12S<br>DADA2<br>RDP<br>Non-curated,All Alberta fish species,Precision,0.970588235294118
+COI<br>Barque<br>VSEARCH<br>Curated,All Alberta fish species,Precision,0.985294117647059
+COI<br>Barque<br>VSEARCH<br>Non-curated,All Alberta fish species,Precision,0.977777777777778
+COI<br>DADA2<br>RDP<br>Curated,All Alberta fish species,Precision,0.985074626865672
+COI<br>DADA2<br>RDP<br>Non-curated,All Alberta fish species,Precision,0.943396226415094
+12S<br>Barque<br>VSEARCH<br>Curated,Community of species with low relatedness,Precision,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,Community of species with low relatedness,Precision,0.928571428571429
+12S<br>DADA2<br>RDP<br>Curated,Community of species with low relatedness,Precision,0.245901639344262
+12S<br>DADA2<br>RDP<br>Non-curated,Community of species with low relatedness,Precision,0.294117647058824
+COI<br>Barque<br>VSEARCH<br>Curated,Community of species with low relatedness,Precision,1
+COI<br>Barque<br>VSEARCH<br>Non-curated,Community of species with low relatedness,Precision,0.928571428571429
+COI<br>DADA2<br>RDP<br>Curated,Community of species with low relatedness,Precision,0.223880597014925
+COI<br>DADA2<br>RDP<br>Non-curated,Community of species with low relatedness,Precision,0.226415094339623
+12S<br>Barque<br>VSEARCH<br>Curated,Fish identified as taxonomic blindspot,Precision,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,Fish identified as taxonomic blindspot,Precision,1
+12S<br>DADA2<br>RDP<br>Curated,Fish identified as taxonomic blindspot,Precision,0.245901639344262
+12S<br>DADA2<br>RDP<br>Non-curated,Fish identified as taxonomic blindspot,Precision,0.294117647058824
+COI<br>Barque<br>VSEARCH<br>Curated,Fish identified as taxonomic blindspot,Precision,1
+COI<br>Barque<br>VSEARCH<br>Non-curated,Fish identified as taxonomic blindspot,Precision,0.933333333333333
+COI<br>DADA2<br>RDP<br>Curated,Fish identified as taxonomic blindspot,Precision,0.223880597014925
+COI<br>DADA2<br>RDP<br>Non-curated,Fish identified as taxonomic blindspot,Precision,0.264150943396226
+12S<br>Barque<br>VSEARCH<br>Curated,0001,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0002,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0003,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0004,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0005,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0006,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0007,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0008,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0009,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0010,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0011,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0012,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0013,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0014,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0015,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0016,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0017,Precision,1
+12S<br>Barque<br>VSEARCH<br>Curated,0018,Precision,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,0001,Precision,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,0002,Precision,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,0003,Precision,0.993710691823899
+12S<br>Barque<br>VSEARCH<br>Non-curated,0004,Precision,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,0005,Precision,0.958677685950413
+12S<br>Barque<br>VSEARCH<br>Non-curated,0006,Precision,0.991150442477876
+12S<br>Barque<br>VSEARCH<br>Non-curated,0007,Precision,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,0008,Precision,0.947598253275109
+12S<br>Barque<br>VSEARCH<br>Non-curated,0009,Precision,0.995689655172414
+12S<br>Barque<br>VSEARCH<br>Non-curated,0010,Precision,0.99468085106383
+12S<br>Barque<br>VSEARCH<br>Non-curated,0011,Precision,0.99438202247191
+12S<br>Barque<br>VSEARCH<br>Non-curated,0012,Precision,1
+12S<br>Barque<br>VSEARCH<br>Non-curated,0013,Precision,0.980952380952381
+12S<br>Barque<br>VSEARCH<br>Non-curated,0014,Precision,0.988636363636364
+12S<br>Barque<br>VSEARCH<br>Non-curated,0015,Precision,0.990740740740741
+12S<br>Barque<br>VSEARCH<br>Non-curated,0016,Precision,0.993630573248408
+12S<br>Barque<br>VSEARCH<br>Non-curated,0017,Precision,0.96875
+12S<br>Barque<br>VSEARCH<br>Non-curated,0018,Precision,1
+12S<br>DADA2<br>RDP<br>Curated,0001,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0002,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0003,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0004,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0005,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0006,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0007,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0008,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0009,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0010,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0011,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0012,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0013,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0014,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0015,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0016,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0017,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Curated,0018,Precision,0.992125984251969
+12S<br>DADA2<br>RDP<br>Non-curated,0001,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0002,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0003,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0004,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0005,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0006,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0007,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0008,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0009,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0010,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0011,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0012,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0013,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0014,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0015,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0016,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0017,Precision,0.828282828282828
+12S<br>DADA2<br>RDP<br>Non-curated,0018,Precision,0.828282828282828
+COI<br>Barque<br>VSEARCH<br>Curated,0001,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0002,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0003,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0004,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0005,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0006,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0007,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0008,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0009,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0010,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0011,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0012,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0013,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0014,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0015,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0016,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0017,Precision,1
+COI<br>Barque<br>VSEARCH<br>Curated,0018,Precision,1
+COI<br>Barque<br>VSEARCH<br>Non-curated,0001,Precision,0.5
+COI<br>Barque<br>VSEARCH<br>Non-curated,0002,Precision,0.5
+COI<br>Barque<br>VSEARCH<br>Non-curated,0003,Precision,0.714285714285714
+COI<br>Barque<br>VSEARCH<br>Non-curated,0004,Precision,0.8
+COI<br>Barque<br>VSEARCH<br>Non-curated,0005,Precision,0.5
+COI<br>Barque<br>VSEARCH<br>Non-curated,0006,Precision,0.333333333333333
+COI<br>Barque<br>VSEARCH<br>Non-curated,0007,Precision,0.8
+COI<br>Barque<br>VSEARCH<br>Non-curated,0008,Precision,0.666666666666667
+COI<br>Barque<br>VSEARCH<br>Non-curated,0009,Precision,0.857142857142857
+COI<br>Barque<br>VSEARCH<br>Non-curated,0010,Precision,0.666666666666667
+COI<br>Barque<br>VSEARCH<br>Non-curated,0011,Precision,0.666666666666667
+COI<br>Barque<br>VSEARCH<br>Non-curated,0012,Precision,0.333333333333333
+COI<br>Barque<br>VSEARCH<br>Non-curated,0013,Precision,0.5
+COI<br>Barque<br>VSEARCH<br>Non-curated,0014,Precision,0.6
+COI<br>Barque<br>VSEARCH<br>Non-curated,0015,Precision,0.5
+COI<br>Barque<br>VSEARCH<br>Non-curated,0016,Precision,0.6
+COI<br>Barque<br>VSEARCH<br>Non-curated,0017,Precision,1
+COI<br>Barque<br>VSEARCH<br>Non-curated,0018,Precision,0.75
+COI<br>DADA2<br>RDP<br>Curated,0001,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0002,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0003,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0004,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0005,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0006,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0007,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0008,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0009,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0010,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0011,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0012,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0013,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0014,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0015,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0016,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0017,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Curated,0018,Precision,0.986301369863014
+COI<br>DADA2<br>RDP<br>Non-curated,0001,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0002,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0003,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0004,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0005,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0006,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0007,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0008,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0009,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0010,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0011,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0012,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0013,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0014,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0015,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0016,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0017,Precision,0.74025974025974
+COI<br>DADA2<br>RDP<br>Non-curated,0018,Precision,0.74025974025974

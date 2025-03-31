@@ -1,0 +1,248 @@
+
+##########################################################################################
+####                      Generating mock communities with InSillico                  #### 
+##########################################################################################
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Ultimately this program was too limiting considering the need for sequence to be longer than 300 bp. This was not the case for many of the sequences so I therefore decided to use the ART software instead. 
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+A first test was done to compare the effect of low VS high richness and evenness (staggered VS even distribution). 
+For this test we identified  we identified 16 species from the article by Morney *et al.* (2024) which we considered to be good candidates to include in the mock communities. 
+Four types of mock communities were designed : 
+
+- 16 species with normalized abundance (richness + / evenness +)
+- 16 species with non-normalized  (richness + / evenness -) 
+- 8 species with normalized abundance (richness - / evenness +) 
+- 8 species with normalized abundance (richness - / evenness -) 
+
+To generate the low richness communities, 8 species were randomly selected from the 16 species. 
+The sequences used were the same as the ones from the curated databases
+
+:::::::::::::::::::::::::::::::: 12S marker gene :::::::::::::::::::::::::::::::
+
+**Create FASTA for InSilicoSeq**
+
+Generate FASTA file with sequences from all 16 fishes used to generate mock community.
+
+Because InSilicoSeq only keeps the first 300 nucleotides cutadapt is used to remove all the nucleotides before the forward primer while retaining the primer. The same methodology is used for the reverse primer in order to generate a reverse sequence. We then need to seperately generate the forward and reverse reads
+
+```{bash, eval=FALSE}
+# Forward primer 
+cutadapt --action=retain -g CCGGTAAAACTCGTGCCAGC -o 12s_seqTRIMF.fasta 12s_alberta_curated.fasta 
+# Reverse primer
+cutadapt --action=retain -a CAAACTGGGATTAGATACCCCACTATG -o 12s_seqTRIMR.fasta  12s_alberta_curated.fasta
+```
+
+**Use InSilicoSeq**
+
+Use [InSilicoSeq](https://insilicoseq.readthedocs.io/en/latest/index.html) pre-computed error models to generate amplicon reads 
+
+```{bash, eval=FALSE}
+#!bin/bash
+############# High Richness and High Evenness ############# 
+# FORWARD read
+echo "Generating reads for High Richness and High Evenness"
+iss generate --genomes 12s_seqTRIMF.fasta --readcount_file  12s_counts_richplusevenplus.txt --sequence_type amplicon --model MiSeq  --output 12s-richplusevenplus_L001 --cpus 20
+# Delete the reverse (R2) and move R1 to folder fastq
+rm *R2* 
+mv *.fastq fastq 
+# REVERSE  read
+iss generate --genomes 12s_seqTRIMR.fasta --readcount_file  12s_counts_richplusevenplus.txt --sequence_type amplicon --model MiSeq  --output 12s-richplusevenplus_L001 --cpus 20
+rm *R1*
+mv *.fastq fastq 
+
+############# Low Richness and high evenness ############# 
+echo "Generating reads for Low Richness and High Evenness"
+# FORWARD read
+iss generate --genomes 12s_seqTRIMF.fasta --readcount_file  12s_counts_richlowevenplus.txt --sequence_type amplicon --model MiSeq  --output 12s-richlowevenplus_L001 --cpus 20
+# Delete the reverse (R2) and move R1 to folder fastq
+rm *R2* 
+mv *.fastq fastq 
+# REVERSE  read
+iss generate --genomes 12s_seqTRIMR.fasta --readcount_file  12s_counts_richlowevenplus.txt --sequence_type amplicon --model MiSeq  --output 12s-richlowevenplus_L001 --cpus 20
+# Delete  the forward (R1) and move R2 to folder fastq
+rm *R1*
+mv *.fastq fastq 
+
+############# High Richness and low evenness ############# 
+echo "Generating reads for High Richness and Low Evenness"
+# FORWARD read
+iss generate --genomes 12s_seqTRIMF.fasta --readcount_file 12s_counts_richplusevenlow.txt --sequence_type amplicon --model MiSeq  --output 12s-richplusevenlow_L001 --cpus 20
+# Delete all the reverse (R2) and move R1 to another folder (fastq)
+rm *R2* 
+mv *.fastq fastq 
+# REVERSE  read
+iss generate --genomes 12s_seqTRIMR.fasta --readcount_file  12s_counts_richplusevenlow.txt --sequence_type amplicon --model MiSeq  --output 12s-richplusevenlow_L001 --cpus 20
+# Delete all the forward (R1) and move R2 to another folder (fastq)
+rm *R1*
+mv *.fastq fastq 
+
+############# Low Richness and low evenness ############# 
+echo "Generating reads for Low Richness and Low Evenness"
+# FORWARD read
+iss generate --genomes 12s_seqTRIMF.fasta --readcount_file 12s_counts_richlowevenlow.txt --sequence_type amplicon --model MiSeq  --output 12s-richlowevenlow_L001 --cpus 20
+# Delete all the reverse (R2) and move R1 to another folder (fastq)
+rm *R2* 
+mv *.fastq fastq 
+# REVERSE  read
+iss generate --genomes 12s_seqTRIMR.fasta --readcount_file  12s_counts_richlowevenlow.txt --sequence_type amplicon --model MiSeq  --output 12s-richlowevenlow_L001 --cpus 20
+# Delete all the forward (R1) and move R2 to another folder (fastq)
+rm *R1*
+mv *.fastq fastq 
+
+rm *.vcf
+```
+
+The pattern `_001` was then manually added to every fastq generated to match pattern from our other samples. 
+
+:::::::::::::::::::::::::::::::: COI marker gene :::::::::::::::::::::::::::::::
+
+**Create FASTA for InSilicoSeq**
+
+Generate FASTA file with sequences from all 16 fishes used to generate mock community and make this fasta linear 
+
+For the reverse primer, the actual primer sequence was not consistently present in our sequences. Increasing the -e value did allow the primer to be found but this resulted in sequences less then 300 bp for some fishes. I therefore decided to instead cut the trimF fasta at 300 bp. 
+
+```{bash, eval = FALSE}
+cutadapt --action=retain -g GTATTTGGYGCYTGRGCCGGRATAGT -o coi_seq_TRIMF.fasta coi_alberta_curated.fasta -e 0.2
+cutadapt --length 350 -o coi_seq_TRIMFR.fasta  coi_seq_TRIMF.fasta
+```
+
+**InSilicoSeq**
+
+Use [InSilicoSeq](https://insilicoseq.readthedocs.io/en/latest/index.html) pre-computed error models to generate amplicon reads. 
+
+```{bash, eval = FALSE}
+# High Richness and high evenness
+iss generate --genomes coi_seq_TRIMFR.fasta --readcount_file  coi_counts_richplusevenplus.txt --sequence_type amplicon --model MiSeq  --output coi-richplusevenplus_L001
+
+# High Richness and low evenness
+iss generate --genomes coi_seq_TRIMFR.fasta --readcount_file coi_counts_richplusevenlow.txt --sequence_type amplicon --model MiSeq  --output coi-richplusevenlow_L001
+
+# Low Richness and high evenness
+iss generate --genomes coi_seq_TRIMFR.fasta --readcount_file  coi_counts_richlowevenplus.txt --sequence_type amplicon --model MiSeq  --output coi-richlowevenplus_L001
+
+# Low Richness and low evenness
+iss generate --genomes coi_seq_TRIMFR.fasta --readcount_file coi_counts_richlowevenlow.txt --sequence_type amplicon --model MiSeq  --output coi-richlowevenlow_L001
+```
+
+The pattern `_001` was then manually added to every FASTQ generated to match pattern from our other samples. 
+
+```{bash, eval = FALSE}
+#!/bin/bash
+############# High Richness and High Evenness ############# 
+# FORWARD read
+echo "Generating reads for High Richness and High Evenness"
+iss generate --genomes coi_seq_TRIMF.fasta --readcount_file  coi_counts_richplusevenplus.txt --sequence_type amplicon --model MiSeq  --output coi-richplusevenplus_L001 --cpus 20
+# Delete the reverse (R2) and move R1 to folder fastq
+rm *R2* 
+mv *.fastq fastq 
+# REVERSE  read
+iss generate --genomes coi_seq_TRIMR.fasta --readcount_file  coi_counts_richplusevenplus.txt --sequence_type amplicon --model MiSeq  --output coi-richplusevenplus_L001 --cpus 20
+rm *R1*
+mv *.fastq fastq 
+
+############# Low Richness and high evenness ############# 
+echo "Generating reads for Low Richness and High Evenness"
+# FORWARD read
+iss generate --genomes coi_seq_TRIMF.fasta --readcount_file  coi_counts_richlowevenplus.txt --sequence_type amplicon --model MiSeq  --output coi-richlowevenplus_L001 --cpus 20
+# Delete the reverse (R2) and move R1 to folder fastq
+rm *R2* 
+mv *.fastq fastq 
+# REVERSE  read
+iss generate --genomes coi_seq_TRIMR.fasta --readcount_file  coi_counts_richlowevenplus.txt --sequence_type amplicon --model MiSeq  --output coi-richlowevenplus_L001 --cpus 20
+# Delete  the forward (R1) and move R2 to folder fastq
+rm *R1*
+mv *.fastq fastq 
+
+############# High Richness and low evenness ############# 
+echo "Generating reads for High Richness and Low Evenness"
+# FORWARD read
+iss generate --genomes coi_seq_TRIMF.fasta --readcount_file coi_counts_richplusevenlow.txt --sequence_type amplicon --model MiSeq  --output coi-richplusevenlow_L001 --cpus 20
+# Delete all the reverse (R2) and move R1 to another folder (fastq)
+rm *R2* 
+mv *.fastq fastq 
+# REVERSE  read
+iss generate --genomes coi_seq_TRIMR.fasta --readcount_file  coi_counts_richplusevenlow.txt --sequence_type amplicon --model MiSeq  --output coi-richplusevenlow_L001 --cpus 20
+# Delete all the forward (R1) and move R2 to another folder (fastq)
+rm *R1*
+mv *.fastq fastq 
+
+############# Low Richness and low evenness ############# 
+echo "Generating reads for Low Richness and Low Evenness"
+# FORWARD read
+iss generate --genomes coi_seq_TRIMF.fasta --readcount_file coi_counts_richlowevenlow.txt --sequence_type amplicon --model MiSeq  --output coi-richlowevenlow_L001 --cpus 20
+# Delete all the reverse (R2) and move R1 to another folder (fastq)
+rm *R2* 
+mv *.fastq fastq 
+# REVERSE  read
+iss generate --genomes coi_seq_TRIMR.fasta --readcount_file  coi_counts_richlowevenlow.txt --sequence_type amplicon --model MiSeq  --output coi-richlowevenlow_L001 --cpus 20
+# Delete all the forward (R1) and move R2 to another folder (fastq)
+rm *R1*
+mv *.fastq fastq 
+
+rm *.vcf
+```
+
+##########################################################################################
+####                         Generating mock communities with ART                     #### 
+##########################################################################################
+
+**All Alberta Fish**
+
+```{bash, eval = FALSE}
+#12S
+# Trim sequence to the region of interest 
+cutadapt --action=retain -g CCGGTAAAACTCGTGCCAGC -o 12s_seqTRIMF.fasta 12s_alberta_curated.fasta
+cutadapt --action=retain -a CAAACTGGGATTAGATACCCCACTATG -o 12s_seqTRIMFR.fasta 12s_seqTRIMF.fasta
+
+/home/kvilleneuve/art_bin_MountRainier/art_illumina -amp -p -na -i 12s_seqTRIMFR.fasta -l 200 -f 1278 -o 12s_allalberta_R
+
+# COI 
+cutadapt --action=retain -g GTATTTGGYGCYTGRGCCGGRATAGT -o coi_seqTRIMF.fasta coi_alberta_curated.fasta -e 0.2
+cutadapt --action=retain -a CGAATRAAYAAYATRAGYTTYTG -o coi_seqTRIMFR.fasta coi_seqTRIMF.fasta -e 0.2
+
+/home/kvilleneuve/art_bin_MountRainier/art_illumina -amp -p -na -i coi_seqTRIMFR.fasta -l 200 -f 880 -o coi_allalberta_R
+``` 
+
+**Mix other fishes**
+
+Complete mitogenome of other fishes was extracted from the MitoFish database. Name of the file containing all the mitogenome of the other species of fishes :`mix_completemito.fasta`
+
+```{bash, eval = FALSE}
+#12S
+cutadapt --action=retain -g CCGGTAAAACTCGTGCCAGC -o 12s_mixtrimF.fasta mix_completemito.fasta
+cutadapt --action=retain -a CAAACTGGGATTAGATACCCCACTATG -o 12s_mixtrimFR.fasta 12s_mixtrimF.fasta
+
+cutadapt --action=retain -g GTATTTGGYGCYTGRGCCGGRATAGT -o coi_mixtrimF.fasta mix_completemito.fasta -e 0.2
+cutadapt --action=retain -a CGAATRAAYAAYATRAGYTTYTG -o coi_mixtrimFR.fasta coi_mixtrimF.fasta -e 0.2
+
+cat 12s_mixtrimFR.fasta 12s_seqTRIMFR.fasta > 12s_mixready.fasta
+cat coi_mixtrimF.fasta coi_seqTRIMFR.fasta > coi_mixready.fasta
+
+/home/kvilleneuve/art_bin_MountRainier/art_illumina -amp -p -na -i 12s_mixready.fasta -l 200 -f 1102 -o 12s_mix_R
+/home/kvilleneuve/art_bin_MountRainier/art_illumina -amp -p -na -i coi_mixready.fasta -l 200 -f 710 -o coi_mix_R
+``` 
+
+**Blind spot**
+
+```{bash, eval = FALSE}
+seqkit grep -nrf names_blindpost.txt 12s_seqTRIMFR.fasta -o 12s_blindspot.fasta
+seqkit grep -nrf names_blindpost.txt coi_seqTRIMFR.fasta -o coi_blindspot.fasta
+
+/home/kvilleneuve/art_bin_MountRainier/art_illumina -amp -p -na -i 12s_blindspot.fasta -l 200 -f 5366 -o 12s_blindspot_R
+/home/kvilleneuve/art_bin_MountRainier/art_illumina -amp -p -na -i coi_blindspot.fasta -l 200 -f 3694 -o coi_blindspot_R
+```
+
+**Low relatedness**
+
+```{bash, eval = FALSE}
+seqkit grep -nrf names_lowrelat.txt 12s_seqTRIMFR.fasta -o 12s_lowrelat.fasta
+seqkit grep -nrf names_lowrelat.txt coi_seqTRIMFR.fasta -o coi_lowrelat.fasta
+
+/home/kvilleneuve/art_bin_MountRainier/art_illumina -amp -p -na -i 12s_lowrelat.fasta -l 200 -f 5366 -o 12s_lowrelat_R
+/home/kvilleneuve/art_bin_MountRainier/art_illumina -amp -p -na -i coi_lowrelat.fasta -l 200 -f 3694 -o coi_lowrelat_R
+```
+

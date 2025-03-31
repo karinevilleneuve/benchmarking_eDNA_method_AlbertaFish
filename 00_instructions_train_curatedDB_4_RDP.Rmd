@@ -1,0 +1,85 @@
+---
+title: "Train curated database for RDP"
+output: html_document
+date: "2025-03-31"
+---
+
+::::::::::::::: Train custom curated database for Alberta freshwater fish :::::::::::::::::
+
+**Prepare taxonomy file**
+
+(1) Extract sequence header using grep 
+(2) Replace semi-colon with tab 
+(3) Remove `>` 
+(4) Add header
+
+
+```{bash, eval = FALSE}
+################# 12S ##############################
+grep -e ">" 12s_alberta_curated.fasta > 12s_curated_header.txt
+sed 's/;/\t/g' 12s_curated_header.txt > header4rdp.txt
+sed -i 's/>//g' header4rdp.txt 
+sed -i $'1 i\\\nID\tcellularOrganisms\tSuperkingdom\tKingdom\tPhylum\tClass\tOrder\tFamily\tGenus\tSpecies' header4rdp.txt
+
+################# COI ##############################
+grep -e ">" coi_alberta_curated.fasta > coi_header_4RDP.txt
+sed -i  's/;/\t/g' coi_header_4RDP.txt
+sed -i 's/>//g' coi_header_4RDP.txt 
+sed -i $'1 i\\\nID\tcellularOrganisms\tSuperkingdom\tKingdom\tPhylum\tClass\tOrder\tFamily\tGenus\tSpecies' coi_header_4RDP.txt
+```
+
+**Prepare sequence file**
+
+The sequence file must be in fasta format and contain a unique identifier without any white space. The accession number makes a good identifier. Anything after the first white space is ignored. The following are acceptable:
+
+```
+>DQ248313
+ACGATTTTGACCCTTCGGGGTCGATCTCCAACCCTTT
+>JF735302 k__Fungi;p__Ascomycota;c__Sordariomycetes;o__Hypocreales
+CCGAGTTTTCAACTCCCAAACCCCTGTGAACATACCA
+``` 
+
+```{bash, eval = FALSE}
+################# 12S ##############################
+sed 's/;/\t/g' 12s_alberta_curated.fasta > seq4rdp.fasta
+
+################# COI ##############################
+sed 's/;/\t/g' coi_alberta_curated.fasta > coi_seq_4RDP.fasta
+```
+
+**Train**
+```{bash, eval = FALSE}
+################# 12S ##############################
+python2 lineage2taxTrain.py header4rdp.txt > ready4train_tax.txt
+python2 addFullLineage.py header4rdp.txt seq4rdp.fasta > ready4train_seqs.fasta 
+
+java -Xmx10g -jar ~/rdp_classifier_2.14/dist/classifier.jar train -o 12s_training_files -s ready4train_seqs.fasta -t ready4train_tax.txt
+
+
+################# COI ##############################
+python2 lineage2taxTrain.py coi_header_4RDP.txt > ready4train_taxonomy.txt
+python2 addFullLineage.py coi_header_4RDP.txt coi_seq_4RDP.fasta > ready4train_seqs.fasta 
+java -Xmx10g -jar ~/rdp_classifier_2.14/dist/classifier.jar train -o COI_training_files -s ready4train_seqs.fasta -t ready4train_taxonomy.txt
+``` 
+
+Output is a directory specified by the parameter -o which should contain the following files :
+
+- bergeyTrainingTree.xml
+- genus_wordConditionalProbList.txt
+- logWordPrior.txt
+- wordConditionalProbIndexArr.txt
+
+Move into this newly created directory and create the file `rRNAClassifier.properties` with the following text :
+``` 
+# Sample ResourceBundle properties file
+bergeyTree=bergeyTrainingTree.xml
+
+probabilityList=genus_wordConditionalProbList.txt
+
+probabilityIndex=wordConditionalProbIndexArr.txt
+
+wordPrior=logWordPrior.txt
+
+classifierVersion=RDP Naive Bayesian rRNA Classifier Version 2.14
+```
+

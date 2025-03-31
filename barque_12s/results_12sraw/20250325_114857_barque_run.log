@@ -1,0 +1,244 @@
+
+
+        |    |    |
+       )_)  )_)  )_)
+      )___))___))___)\
+     )____)____)_____)\\
+   _____|____|____|____\\\__
+   \   BARQUE v1.8.5   /
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^   ^^^^^^    ^^^^^^  ^^^^^^
+
+- 12S Database found
+- 2 Samples found in 04_data
+- vsearch is recent enough:
+    needed: 2.14.2+; installed: 2.29.1
+- python3 is recent enough:
+    needed: 3.5.0+; installed: 3.10.12
+- R is recent enough:
+    needed: 3.0.0+; installed: 4.4.0
+- parallel is recent enough:
+    needed: 20180101+; installed: 20241122
+- flash is recent enough:
+    needed: 1.2.11+; installed: 1.2.11
+
+BARQUE: Preparing data
+
+BARQUE: Trimming and filtering reads
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/12s-staggered_L001_R1_001.fastq.gz 04_data/12s-staggered_L001_R2_001.fastq.gz 05_trimmed/12s-staggered_L001_R1_001.fastq.gz 05_trimmed/12s-staggered_L001_R1_001.single.fastq.gz 05_trimmed/12s-staggered_L001_R2_001.fastq.gz 05_trimmed/12s-staggered_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 10700 Both Surviving: 10677 (99.79%) Forward Only Surviving: 23 (0.21%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 04_data/12s-even_L001_R1_001.fastq.gz 04_data/12s-even_L001_R2_001.fastq.gz 05_trimmed/12s-even_L001_R1_001.fastq.gz 05_trimmed/12s-even_L001_R1_001.single.fastq.gz 05_trimmed/12s-even_L001_R2_001.fastq.gz 05_trimmed/12s-even_L001_R2_001.single.fastq.gz LEADING:20 TRAILING:20 SLIDINGWINDOW:20:20 MINLEN:100 CROP:200
+Multiple cores found: Using 4 threads
+Input Read Pairs: 10000 Both Surviving: 9991 (99.91%) Forward Only Surviving: 9 (0.09%) Reverse Only Surviving: 0 (0.00%) Dropped: 0 (0.00%)
+TrimmomaticPE: Completed successfully
+
+BARQUE: Merging forward and reverse reads
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/12s-even_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/12s-even_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 9991 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      9991
+[FLASH]     Combined pairs:   9990
+[FLASH]     Uncombined pairs: 1
+[FLASH]     Percent combined: 99.99%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.086 seconds elapsed
+[FLASH] Starting FLASH v1.2.11
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     05_trimmed/12s-staggered_L001_R1_001.fastq.gz
+[FLASH]     05_trimmed/12s-staggered_L001_R2_001.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     -
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           30
+[FLASH]     Max overlap:           280
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   false
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      1
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 1 combiner threads
+[FLASH] Processed 10677 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:      10677
+[FLASH]     Combined pairs:   10677
+[FLASH]     Uncombined pairs: 0
+[FLASH]     Percent combined: 100.00%
+[FLASH]  
+[FLASH]  
+[FLASH] FLASH v1.2.11 complete!
+[FLASH] 0.090 seconds elapsed
+
+BARQUE: Splitting samples by amplicon
+Extracted 99.9% (9988/9990)	 sequences, 100% forward (0), 12s-even_L001_merged.fastq.gz
+Extracted 99.9% (10674/10677)	 sequences, 100% forward (0), 12s-staggered_L001_merged.fastq.gz
+
+BARQUE: Chimeras removal step
+Amplicon: 12s200pb
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-even_L001_merged_12s200pb.fastq.fasta 100%
+1695715 nt in 9989 seqs, min 164, max 178, avg 170
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 350 Size min 1, max 490, avg 28.5
+Singletons: 322, 3.2% of seqs, 92.0% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-staggered_L001_merged_12s200pb.fastq.fasta 100%
+1808232 nt in 10675 seqs, min 163, max 180, avg 169
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 327 Size min 1, max 898, avg 32.6
+Singletons: 294, 2.8% of seqs, 89.9% of clusters
+Multiple alignments 100%
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-staggered_L001_merged_12s200pb.fastq.fasta.unique 100%
+55394 nt in 327 seqs, min 164, max 178, avg 169
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 0 (0.0%) chimeras, 327 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 327 unique sequences.
+Taking abundance information into account, this corresponds to
+0 (0.0%) chimeras, 10675 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 10675 total sequences.
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 08_chimeras/12s-even_L001_merged_12s200pb.fastq.fasta.unique 100%
+59528 nt in 350 seqs, min 165, max 178, avg 170
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 0 (0.0%) chimeras, 350 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 350 unique sequences.
+Taking abundance information into account, this corresponds to
+0 (0.0%) chimeras, 9989 (100.0%) non-chimeras,
+and 0 (0.0%) borderline sequences in 9989 total sequences.
+
+BARQUE: Running vsearch
+Amplicon: 12s200pb
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file 03_databases/12S.fasta.gz 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Masking 100%
+Counting k-mers 100%
+Creating k-mer index 100%
+Writing UDB file 100%
+
+#############################
+# Using database: 12S.fasta.gz
+#############################
+
+
+Running vsearch on 12s-even_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 349 of 350 (99.71%)
+done
+--
+
+
+Running vsearch on 12s-staggered_L001_merged_12s200pb_nonchimeras.fasta.gz_unique.fasta.gz with database 12S.fasta.gz
+vsearch v2.29.1_linux_x86_64, 31.2GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file 03_databases/12S.fasta.gz.vsearchdb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+498933 nt in 2813 seqs, min 124, max 2730, avg 177
+Searching 100%
+Matching unique query sequences: 326 of 327 (99.69%)
+done
+--
+
+gzip: No such file or directory
+gzip: 09_vsearch/matched:: No such file or directory
+
+BARQUE: Summarizing results
+  12s-even  12s-staggered
+
+BARQUE: Looking at sequence dropout
+
+BARQUE: Finding most frequent non-annotated sequences
+ls: cannot access '09_vsearch/matched_*': No such file or directory
+gzip: 08_chimeras/matched_*_unique.fasta.gz: No such file or directory
+
+BARQUE: Skipping OTU creation
+
+BARQUE: Extracting sequence groups from multiple hits
+Traceback (most recent call last):
+  File "/home/kvilleneuve/fish_edna/code/barque_12s/./01_scripts/12_extract_multiple_hit_sequences.py", line 161, in <module>
+    with myopen("12_results/01_multihits/" + primer[0] + f"_multihit_{multihit_num:04d}_" + multihit_genus + ".fasta", "wt") as outfile:
+  File "/home/kvilleneuve/fish_edna/code/barque_12s/./01_scripts/12_extract_multiple_hit_sequences.py", line 36, in myopen
+    return open(_file, mode=mode)
+FileNotFoundError: [Errno 2] No such file or directory: '12_results/01_multihits/12s200pb_multihit_0001_Comephorus_Cottus.fasta'
+
+BARQUE: Creating figures of hit similarity per species and site
+Error in plot.new() : 
+  could not open file '12_results/02_figures_hit_similarity/similarity_Acipenseridae_Acipenser_fulvescens.png'
+Calls: plot ... boxplot.default -> do.call -> <Anonymous> -> plot.new
+Execution halted
+
+BARQUE: Run completed

@@ -1,0 +1,85 @@
+Group,Genus,Species,TaxonName,Total,0001-PS1,0002-PS1,0003-PS1,0004-PS1,0005-PS1,0006-PS1,0007-PS1,0008-PS1,0009-PS1,0010-PS1,0011-PS1,0012-PS1,0013-PS1,0014-PS1,0015-PS1,0016-PS1,0017-PS1,0018-PS1,coi,coi-allalberta,coi-blindspot,coi-lowrelat,coi-mix,coi-richlowevenlow,coi-richlowevenplus,coi-richplusevenlow,coi-richplusevenplus
+arthropoda,Micropsectra,subletteorum,arthropoda_Micropsectra_subletteorum,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,0
+chordata,Lota,lota,chordata_Lota_lota,23013,0,6,0,8,1,0,0,1,0,0,0,0,1,0,0,3,0,2,709,878,3691,3690,709,5190,3457,2940,1727
+chordata,Oncorhynchus,mykiss,chordata_Oncorhynchus_mykiss,22411,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1413,1751,3680,0,1413,5872,3447,3105,1730
+chordata,Salvelinus,fontinalis,chordata_Salvelinus_fontinalis,21025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,708,878,3693,0,708,6571,3461,3280,1726
+chordata,Perca,flavescens,chordata_Perca_flavescens,19001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,878,3688,3687,710,1727,3456,2418,1727
+chordata,Culaea,inconstans,chordata_Culaea_inconstans,18463,0,0,18,6,0,0,0,0,0,0,0,0,0,6,0,0,0,2,709,879,3691,0,709,4493,3458,2762,1730
+chordata,Prosopium,williamsoni,chordata_Prosopium_williamsoni,13571,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,707,880,3682,0,707,346,3451,2074,1724
+chordata,Platygobio,gracilis,chordata_Platygobio_gracilis,12267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,879,3693,3690,709,0,0,861,1726
+chordata,Percopsis,omiscomaycus,chordata_Percopsis_omiscomaycus,11789,0,1,0,0,0,0,12,0,7,9,0,1,0,4,3,0,0,0,710,880,3687,3690,710,0,0,345,1730
+chordata,Couesius,plumbeus,chordata_Couesius_plumbeus,9588,31,14,227,5,217,4,12,15,22,13,4,12,17,3,9,6,14,212,709,880,3693,0,709,0,0,1032,1728
+chordata,Catostomus,catostomus,chordata_Catostomus_catostomus,8291,0,1,0,2,15,0,3,2,5,7,2,1,4,1,2,0,1,14,710,877,3689,0,710,0,0,519,1726
+chordata,Hiodon,tergisus,chordata_Hiodon_tergisus,5989,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,880,0,3691,709,0,0,0,0
+chordata,Cottus,beldingii,chordata_Cottus_beldingii,5988,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,880,0,3688,710,0,0,0,0
+chordata,Micropterus,salmoides,chordata_Micropterus_salmoides,5988,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,879,0,3691,709,0,0,0,0
+chordata,Noturus,flavus,chordata_Noturus_flavus,5988,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,879,0,3689,710,0,0,0,0
+chordata,Cottus,ricei,chordata_Cottus_ricei,5987,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,878,3689,0,710,0,0,0,0
+chordata,Esox,lucius,chordata_Esox_lucius,5986,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,708,879,0,3690,708,0,0,0,0
+chordata,Gambusia,affinis,chordata_Gambusia_affinis,5984,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,877,0,3689,709,0,0,0,0
+chordata,Lethenteron,camtschaticum,chordata_Lethenteron_camtschaticum,5984,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,879,0,3687,709,0,0,0,0
+chordata,Anguilla,rostrata,chordata_Anguilla_rostrata,5975,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,707,876,0,3685,707,0,0,0,0
+chordata,Acipenser,fulvescens,chordata_Acipenser_fulvescens,5966,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,708,876,0,3674,708,0,0,0,0
+chordata,Pimephales,promelas,chordata_Pimephales_promelas,2315,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,879,0,0,709,0,0,0,0
+chordata,Salvelinus,malma,chordata_Salvelinus_malma,2300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,711,878,0,0,711,0,0,0,0
+chordata,Sander,canadensis,chordata_Sander_canadensis,2300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,880,0,0,710,0,0,0,0
+chordata,Notropis,hudsonius,chordata_Notropis_hudsonius,2299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,879,0,0,710,0,0,0,0
+chordata,Prosopium,cylindraceum,chordata_Prosopium_cylindraceum,2299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,879,0,0,710,0,0,0,0
+chordata,Salvelinus,namaycush,chordata_Salvelinus_namaycush,2299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,879,0,0,710,0,0,0,0
+chordata,Catostomus,commersonii,chordata_Catostomus_commersonii,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,880,0,0,709,0,0,0,0
+chordata,Chrosomus,eos,chordata_Chrosomus_eos,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,878,0,0,710,0,0,0,0
+chordata,Etheostoma,exile,chordata_Etheostoma_exile,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,880,0,0,709,0,0,0,0
+chordata,Hemichromis,bimaculatus,chordata_Hemichromis_bimaculatus,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,878,0,0,710,0,0,0,0
+chordata,Hiodon,alosoides,chordata_Hiodon_alosoides,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,878,0,0,710,0,0,0,0
+chordata,Margariscus,margarita,chordata_Margariscus_margarita,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,880,0,0,709,0,0,0,0
+chordata,Notropis,blennius,chordata_Notropis_blennius,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,878,0,0,710,0,0,0,0
+chordata,Prosopium,coulterii,chordata_Prosopium_coulterii,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,878,0,0,710,0,0,0,0
+chordata,Pungitius,pungitius,chordata_Pungitius_pungitius,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,880,0,0,709,0,0,0,0
+chordata,Salmo,salar,chordata_Salmo_salar,2298,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,878,0,0,710,0,0,0,0
+chordata,Catostomus,platyrhynchus,chordata_Catostomus_platyrhynchus,2297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,879,0,0,709,0,0,0,0
+chordata,Lepomis,gibbosus,chordata_Lepomis_gibbosus,2296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,878,0,0,709,0,0,0,0
+chordata,Oncorhynchus,nerka,chordata_Oncorhynchus_nerka,2296,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,878,0,0,709,0,0,0,0
+chordata,Poecilia,latipinna,chordata_Poecilia_latipinna,2295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,708,879,0,0,708,0,0,0,0
+chordata,Richardsonius,balteatus,chordata_Richardsonius_balteatus,2295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,708,879,0,0,708,0,0,0,0
+chordata,Notropis,atherinoides,chordata_Notropis_atherinoides,2292,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,708,876,0,0,708,0,0,0,0
+chordata,Moxostoma,anisurum,chordata_Moxostoma_anisurum,2287,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,707,873,0,0,707,0,0,0,0
+chordata,Micropterus,dolomieu,chordata_Micropterus_dolomieu,2283,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,705,873,0,0,705,0,0,0,0
+chordata,Castor,canadensis,chordata_Castor_canadensis,611,4,13,70,63,35,16,32,4,72,82,46,8,28,9,27,48,1,53,0,0,0,0,0,0,0,0,0
+chordata,Thymallus,arcticus,chordata_Thymallus_arcticus,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,10,30,0,8,9,14,16,6
+chordata,Sander,vitreus,chordata_Sander_vitreus,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,13,47,0,9,0,0,6,11
+chordata,Rhinichthys,cataractae,chordata_Rhinichthys_cataractae,63,0,0,0,0,1,0,6,4,16,8,7,0,6,0,6,6,0,0,1,1,0,0,1,0,0,0,0
+chordata,Myoxocephalus,quadricornis,chordata_Myoxocephalus_quadricornis,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,26,0,0,15,0,0,0,0
+chordata,Salmo,trutta,chordata_Salmo_trutta,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5,13,0,5,0,0,4,6
+chordata,Cottus,cognatus,chordata_Cottus_cognatus,32,0,0,0,15,0,0,0,0,0,0,0,0,0,3,0,0,14,0,0,0,0,0,0,0,0,0,0
+chordata,Coregonus,sardinella,chordata_Coregonus_sardinella,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,10,0,2,0,3,2,2
+zMultiple,Hits,chordata_Thymallus_arcticus : chordata_Thymallus_mertensii,MultipleHits,16069,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,697,869,3656,0,697,2410,3444,2572,1724
+zMultiple,Hits,chordata_Coregonus_albula : chordata_Coregonus_arenicolus : chordata_Coregonus_clupeaformis : chordata_Coregonus_lavaretus : chordata_Coregonus_lucinensis : chordata_Coregonus_macrophthalmus : chordata_Coregonus_peled : chordata_Coregonus_sardinella,MultipleHits,13799,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,672,821,3413,0,672,1009,3355,2178,1679
+zMultiple,Hits,chordata_Salmo_abanticus : chordata_Salmo_cettii : chordata_Salmo_trutta,MultipleHits,8995,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,700,867,3644,0,700,0,0,1371,1713
+zMultiple,Hits,chordata_Morone_americana : chordata_Sander_vitreus,MultipleHits,8843,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,4,0,0,701,867,3642,0,701,0,0,1204,1720
+zMultiple,Hits,chordata_Oncorhynchus_kisutch : chordata_Oncorhynchus_tshawytscha,MultipleHits,5982,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,876,0,3688,709,0,0,0,0
+zMultiple,Hits,chordata_Carpiodes_carpio : chordata_Carpiodes_cyprinus : chordata_Carpiodes_velifer,MultipleHits,5952,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,704,873,0,3671,704,0,0,0,0
+zMultiple,Hits,chordata_Coregonus_artedi : chordata_Coregonus_hoyi : chordata_Coregonus_kiyi : chordata_Coregonus_nigripinnis : chordata_Coregonus_zenithicus,MultipleHits,4714,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,708,879,0,0,708,0,0,691,1728
+zMultiple,Hits,chordata_Cottus_bairdii : chordata_Cottus_caeruleomentum : chordata_Cottus_cognatus,MultipleHits,4177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,704,872,0,0,704,0,0,171,1726
+zMultiple,Hits,chordata_Carassius_auratus : chordata_Carassius_carassius : chordata_Carassius_gibelio : chordata_Piaractus_brachypomus,MultipleHits,2302,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,711,880,0,0,711,0,0,0,0
+zMultiple,Hits,chordata_Chrosomus_eos : chordata_Chrosomus_neogaeus,MultipleHits,2299,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,710,878,0,0,710,0,0,0,0
+zMultiple,Hits,chordata_Hybognathus_hankinsoni : chordata_Hybognathus_regius,MultipleHits,2299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,879,0,0,710,0,0,0,0
+zMultiple,Hits,chordata_Carassius_auratus : chordata_Carassius_gibelio,MultipleHits,2297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,879,0,0,709,0,0,0,0
+zMultiple,Hits,chordata_Catostomus_columbianus : chordata_Catostomus_macrocheilus : chordata_Catostomus_tahoensis,MultipleHits,2297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,710,877,0,0,710,0,0,0,0
+zMultiple,Hits,chordata_Hybognathus_argyritis : chordata_Hybognathus_nuchalis,MultipleHits,2297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,879,0,0,709,0,0,0,0
+zMultiple,Hits,chordata_Moxostoma_macrolepidotum : chordata_Moxostoma_pisolabrum,MultipleHits,2297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,709,879,0,0,709,0,0,0,0
+zMultiple,Hits,chordata_Pararhinichthys_bowersi : chordata_Rhinichthys_cataractae,MultipleHits,2293,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,708,877,0,0,708,0,0,0,0
+zMultiple,Hits,chordata_Gasterosteus_aculeatus : chordata_Gasterosteus_gymnurus,MultipleHits,2291,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,707,877,0,0,707,0,0,0,0
+zMultiple,Hits,chordata_Ptychocheilus_oregonensis : chordata_Ptychocheilus_umpquae,MultipleHits,2288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,705,878,0,0,705,0,0,0,0
+zMultiple,Hits,chordata_Salvelinus_alpinus : chordata_Salvelinus_boganidae : chordata_Salvelinus_evasus : chordata_Salvelinus_umbla,MultipleHits,2288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,706,876,0,0,706,0,0,0,0
+zMultiple,Hits,chordata_Cottus_asper : chordata_Cottus_bairdii,MultipleHits,2286,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,705,876,0,0,705,0,0,0,0
+zMultiple,Hits,chordata_Percina_caprodes : chordata_Percina_fulvitaenia : chordata_Percina_macrolepida,MultipleHits,2268,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,697,874,0,0,697,0,0,0,0
+zMultiple,Hits,chordata_Myoxocephalus_quadricornis : chordata_Myoxocephalus_thompsonii,MultipleHits,2241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,694,853,0,0,694,0,0,0,0
+zMultiple,Hits,chordata_Salvelinus_alpinus : chordata_Salvelinus_confluentus : chordata_Salvelinus_malma : chordata_Salvelinus_taranetzi : chordata_Salvelinus_umbla,MultipleHits,2239,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,692,855,0,0,692,0,0,0,0
+zMultiple,Hits,chordata_Coregonus_albula : chordata_Coregonus_arenicolus : chordata_Coregonus_clupeaformis : chordata_Coregonus_lavaretus : chordata_Coregonus_macrophthalmus : chordata_Coregonus_peled : chordata_Coregonus_sardinella,MultipleHits,210,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11,19,94,0,11,17,26,20,12
+zMultiple,Hits,arthropoda_Leptophlebia_cupida : arthropoda_Leptophlebia_nebulosa,MultipleHits,90,0,1,0,16,67,0,0,0,0,0,0,0,1,0,0,0,0,5,0,0,0,0,0,0,0,0,0
+zMultiple,Hits,chordata_Coregonus_albula : chordata_Coregonus_arenicolus : chordata_Coregonus_clupeaformis : chordata_Coregonus_lavaretus : chordata_Coregonus_macrophthalmus : chordata_Coregonus_muksun : chordata_Coregonus_oxyrinchus : chordata_Coregonus_peled : chordata_Coregonus_sardinella : chordata_Coregonus_ussuriensis,MultipleHits,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,12,30,0,3,4,16,14,7
+zMultiple,Hits,chordata_Coregonus_albula : chordata_Coregonus_arenicolus : chordata_Coregonus_clupeaformis : chordata_Coregonus_lavaretus : chordata_Coregonus_macrophthalmus : chordata_Coregonus_nasus : chordata_Coregonus_peled : chordata_Coregonus_sardinella,MultipleHits,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5,39,0,1,0,7,4,0
+zMultiple,Hits,chordata_Coregonus_albula : chordata_Coregonus_lucinensis : chordata_Coregonus_peled : chordata_Coregonus_sardinella,MultipleHits,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,3,24,0,4,1,10,5,6
+zMultiple,Hits,chordata_Coregonus_albula : chordata_Coregonus_clupeaformis : chordata_Coregonus_lavaretus : chordata_Coregonus_migratorius : chordata_Coregonus_muksun : chordata_Coregonus_oxyrinchus : chordata_Coregonus_peled : chordata_Coregonus_pidschian : chordata_Coregonus_sardinella,MultipleHits,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,14,0,2,0,9,5,7
+zMultiple,Hits,chordata_Coregonus_albula : chordata_Coregonus_arenicolus : chordata_Coregonus_clupeaformis : chordata_Coregonus_lavaretus : chordata_Coregonus_macrophthalmus : chordata_Coregonus_migratorius : chordata_Coregonus_peled : chordata_Coregonus_sardinella,MultipleHits,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,4,12,0,6,0,5,1,6
+Total,reads,by,sample,379585,48,49,355,129,354,30,76,28,135,135,62,32,76,33,76,76,40,295,48234,59766,55362,55351,48234,27663,27660,27637,27649

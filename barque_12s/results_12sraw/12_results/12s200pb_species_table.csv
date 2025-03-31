@@ -1,0 +1,70 @@
+Group,Genus,Species,TaxonName,Total,0001-mifish,0002-mifish,0003-mifish,0004-mifish,0005-mifish,0006-mifish,0007-mifish,0008-mifish,0009-mifish,0010-mifish,0011-mifish,0012-mifish,0013-mifish,0014-mifish,0015-mifish,0016-mifish,0017-mifish,0018-mifish,12s-allalberta,12s-blindspot,12s-lowrelat,12s-mix,12s-richlowevenlow,12s-richlowevenplus,12s-richplusevenlow,12s-richplusevenplus
+Acipenseridae,Acipenser,fulvescens,Acipenseridae_Acipenser_fulvescens,7731,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1273,0,5356,1102,0,0,0,0
+Anguillidae,Anguilla,rostrata,Anguillidae_Anguilla_rostrata,7735,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1277,0,5358,1100,0,0,0,0
+Catostomidae,Catostomus,catostomus,Catostomidae_Catostomus_catostomus,58901,1128,3234,0,2524,1683,3370,1775,5884,3010,3629,1008,1174,2684,770,1989,2803,1166,10074,1278,5357,0,1097,0,0,752,2512
+Catostomidae,Catostomus,commersonii,Catostomidae_Catostomus_commersonii,33759,3401,1282,2927,1955,419,1124,1795,0,1988,4740,1571,1,2473,3984,822,1460,103,1339,1276,0,0,1099,0,0,0,0
+Catostomidae,Carpiodes,carpio,Catostomidae_Carpiodes_carpio,7733,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1276,0,5357,1100,0,0,0,0
+Catostomidae,Moxostoma,macrolepidotum,Catostomidae_Moxostoma_macrolepidotum,2377,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1277,0,0,1100,0,0,0,0
+Catostomidae,Xyrauchen,texanus,Catostomidae_Xyrauchen_texanus,2376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1276,0,0,1100,0,0,0,0
+Catostomidae,Moxostoma,anisurum,Catostomidae_Moxostoma_anisurum,2375,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1275,0,0,1100,0,0,0,0
+Centrarchidae,Micropterus,salmoides,Centrarchidae_Micropterus_salmoides,7739,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1277,0,5360,1102,0,0,0,0
+Centrarchidae,Micropterus,dolomieu,Centrarchidae_Micropterus_dolomieu,2379,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1278,0,0,1101,0,0,0,0
+Centrarchidae,Lepomis,gibbosus,Centrarchidae_Lepomis_gibbosus,2377,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1276,0,0,1101,0,0,0,0
+Centrarchidae,Micropterus,floridanus,Centrarchidae_Micropterus_floridanus,1101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1101,0,0,0,0
+Cottidae,Cottus,ricei,Cottidae_Cottus_ricei,9900,0,0,0,465,0,0,0,0,0,0,512,0,0,0,0,1207,0,0,1274,5346,0,1096,0,0,0,0
+Cyprinidae,Couesius,plumbeus,Cyprinidae_Couesius_plumbeus,191502,21039,6998,19091,1833,12761,3416,3240,17224,10309,7884,12036,9536,7025,4,6567,4169,6261,30358,1276,5359,0,1102,0,0,1505,2509
+Cyprinidae,Rhinichthys,cataractae,Cyprinidae_Rhinichthys_cataractae,52513,0,1,0,2,181,2809,1315,3477,12506,5751,9128,0,2347,2832,4002,5612,2,172,1277,0,0,1099,0,0,0,0
+Cyprinidae,Platygobio,gracilis,Cyprinidae_Platygobio_gracilis,16853,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1278,5360,5354,1100,0,0,1254,2507
+Cyprinidae,Phoxinus,neogaeus,Cyprinidae_Phoxinus_neogaeus,8676,0,0,0,784,2732,0,344,0,0,0,0,0,161,355,546,0,405,971,1276,0,0,1102,0,0,0,0
+Cyprinidae,Pimephales,promelas,Cyprinidae_Pimephales_promelas,4783,0,0,2089,245,0,3,0,0,1,2,0,1,0,1,0,0,1,63,1277,0,0,1100,0,0,0,0
+Cyprinidae,Phoxinus,eos,Cyprinidae_Phoxinus_eos,2387,1,1,0,0,0,0,0,0,0,0,1,5,0,0,0,0,0,4,1276,0,0,1099,0,0,0,0
+Cyprinidae,Carassius,auratus,Cyprinidae_Carassius_auratus,2377,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1277,0,0,1100,0,0,0,0
+Cyprinidae,Notropis,atherinoides,Cyprinidae_Notropis_atherinoides,2376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1276,0,0,1100,0,0,0,0
+Cyprinidae,Notropis,hudsonius,Cyprinidae_Notropis_hudsonius,2376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1275,0,0,1101,0,0,0,0
+Cyprinidae,Lavinia,exilicauda,Cyprinidae_Lavinia_exilicauda,2361,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1269,0,0,1092,0,0,0,0
+Cyprinidae,Semotilus,atromaculatus,Cyprinidae_Semotilus_atromaculatus,1623,0,1,1,0,1002,21,0,576,5,3,1,0,0,0,0,1,10,2,0,0,0,0,0,0,0,0
+Esocidae,Esox,lucius,Esocidae_Esox_lucius,26693,1,1,0,937,0,4006,552,0,2810,1407,1257,347,557,2544,0,1868,85,2586,1277,0,5356,1102,0,0,0,0
+Fish,Gambusia,affinis,Fish_Gambusia_affinis,7734,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1274,0,5359,1101,0,0,0,0
+Fish,Lethenteron,camtschaticum,Fish_Lethenteron_camtschaticum,7733,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1277,0,5356,1100,0,0,0,0
+Fish,Richardsonius,balteatus,Fish_Richardsonius_balteatus,2377,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1275,0,0,1102,0,0,0,0
+Fish,Poecilia,latipinna,Fish_Poecilia_latipinna,2376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1276,0,0,1100,0,0,0,0
+Fish,Tarimichthys,bombifrons,Fish_Tarimichthys_bombifrons,1102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1102,0,0,0,0
+Fish,Embiotoca,jacksoni,Fish_Embiotoca_jacksoni,1047,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1047,0,0,0,0
+Gasterosteidae,Culaea,inconstans,Gasterosteidae_Culaea_inconstans,25815,0,1,3,5,0,0,0,1,4,1,2,7,0,0,0,0,4,4,1275,5357,0,1100,6522,5014,4010,2505
+Gasterosteidae,Pungitius,pungitius,Gasterosteidae_Pungitius_pungitius,2380,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1278,0,0,1102,0,0,0,0
+Gasterosteidae,Gasterosteus,aculeatus,Gasterosteidae_Gasterosteus_aculeatus,2378,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1276,0,0,1102,0,0,0,0
+Hiodontidae,Hiodon,tergisus,Hiodontidae_Hiodon_tergisus,7732,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1276,0,5357,1099,0,0,0,0
+Hiodontidae,Hiodon,alosoides,Hiodontidae_Hiodon_alosoides,2377,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1277,0,0,1100,0,0,0,0
+Ictaluridae,Noturus,flavus,Ictaluridae_Noturus_flavus,7734,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1276,0,5358,1100,0,0,0,0
+Leuciscidae,Margariscus,margarita,Leuciscidae_Margariscus_margarita,2582,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,204,1277,0,0,1101,0,0,0,0
+Lotidae,Lota,lota,Lotidae_Lota_lota,39777,0,1460,0,992,45,0,243,0,0,723,129,453,58,0,0,718,230,2324,1274,5357,5356,1100,7523,5012,4270,2510
+Mammal,Castor,canadensis,Mammal_Castor_canadensis,275,0,0,9,1,0,0,0,0,10,6,8,0,75,148,10,6,2,0,0,0,0,0,0,0,0,0
+Nemacheilidae,Barbatula,nuda,Nemacheilidae_Barbatula_nuda,1101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1101,0,0,0,0
+Percidae,Sander,vitreus,Percidae_Sander_vitreus,27225,0,1,0,528,0,0,224,1309,92,2336,1247,1,463,2195,1834,3941,196,862,1273,5358,0,1097,0,0,1757,2511
+Percidae,Perca,flavescens,Percidae_Perca_flavescens,26646,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1273,5360,5358,1101,2510,5019,3516,2509
+Percidae,Percina,copelandi,Percidae_Percina_copelandi,2378,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1276,0,0,1102,0,0,0,0
+Percidae,Etheostoma,caeruleum,Percidae_Etheostoma_caeruleum,1111,0,0,0,0,0,0,0,1110,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Percopsidae,Percopsis,omiscomaycus,Percopsidae_Percopsis_omiscomaycus,42207,0,275,0,152,1,3721,2561,275,6368,4147,1124,730,765,3441,876,1343,320,1,1276,5362,5358,1099,0,0,503,2509
+Salmonidae,Oncorhynchus,mykiss,Salmonidae_Oncorhynchus_mykiss,30621,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2551,5332,0,2199,8518,5010,4503,2508
+Salmonidae,Coregonus,clupeaformis,Salmonidae_Coregonus_clupeaformis,20016,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1277,5354,0,1101,1507,5016,3255,2506
+Salmonidae,Prosopium,williamsoni,Salmonidae_Prosopium_williamsoni,19462,0,0,0,0,0,0,0,0,0,689,0,0,0,0,0,0,0,0,1277,5354,0,1101,502,5015,3011,2513
+Salmonidae,Salmo,trutta,Salmonidae_Salmo_trutta,12257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1277,5362,0,1099,0,0,2008,2511
+Salmonidae,Oncorhynchus,kisutch,Salmonidae_Oncorhynchus_kisutch,7731,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1278,0,5354,1099,0,0,0,0
+Salmonidae,Coregonus,artedi,Salmonidae_Coregonus_artedi,5887,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1271,0,0,1101,0,0,1004,2511
+Salmonidae,Salvelinus,namaycush,Salmonidae_Salvelinus_namaycush,2376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1275,0,0,1101,0,0,0,0
+Salmonidae,Prosopium,cylindraceum,Salmonidae_Prosopium_cylindraceum,2374,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1273,0,0,1101,0,0,0,0
+Salmonidae,Salmo,salar,Salmonidae_Salmo_salar,2374,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1275,0,0,1099,0,0,0,0
+Salmonidae,Oncorhynchus,nerka,Salmonidae_Oncorhynchus_nerka,2372,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1273,0,0,1099,0,0,0,0
+Salmonidae,Salvelinus,alpinus,Salmonidae_Salvelinus_alpinus,2372,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1274,0,0,1098,0,0,0,0
+Salmonidae,Stenodus,leucichthys,Salmonidae_Stenodus_leucichthys,2354,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1270,0,0,1084,0,0,0,0
+zMultiple,Hits,Salmonidae_Salvelinus_fontinalis : Salmonidae_Salvelinus_leucomaenis,MultipleHits,29568,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1277,5359,0,1100,9536,5018,4768,2510
+zMultiple,Hits,Fish_Thymallus_arcticus : Fish_Thymallus_mertensii,MultipleHits,22517,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1275,5353,0,1099,3512,5010,3758,2510
+zMultiple,Hits,Comephoridae_Comephorus_dybowskii : Cottidae_Cottus_bairdii : Cottidae_Cottus_cognatus : Cottidae_Cottus_dzungaricus,MultipleHits,13123,0,0,0,5138,126,0,0,0,824,0,0,2,311,4283,259,1081,1098,0,1,0,0,0,0,0,0,0
+zMultiple,Hits,Comephoridae_Comephorus_dybowskii : Cottidae_Cottus_bairdii : Cottidae_Cottus_cognatus,MultipleHits,12896,0,0,0,21,0,0,0,0,7,0,0,0,1,11,0,0,3,0,2545,0,5349,2200,0,0,251,2508
+zMultiple,Hits,Cyprinidae_Carassius_carassius : Cyprinidae_Carassius_gibelio,MultipleHits,2397,2,0,0,0,0,3,6,0,0,0,0,0,1,3,4,0,0,0,1276,0,0,1102,0,0,0,0
+zMultiple,Hits,Percidae_Sander_canadensis : Percidae_Sander_lucioperca,MultipleHits,2379,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1278,0,0,1101,0,0,0,0
+zMultiple,Hits,Salmonidae_Salvelinus_albus : Salmonidae_Salvelinus_alpinus : Salmonidae_Salvelinus_kuznetzovi,MultipleHits,2370,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1273,0,0,1097,0,0,0,0
+zMultiple,Hits,Cyprinidae_Luxilus_chrysocephalus : Cyprinidae_Luxilus_cornutus,MultipleHits,2369,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1271,0,0,1098,0,0,0,0
+zMultiple,Hits,Fish_Centropyge_eibli : Fish_Centropyge_flavissima,MultipleHits,1100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1100,0,0,0,0
+zMultiple,Hits,Cottidae_Cottus_dzungaricus : Cottidae_Cottus_ricei,MultipleHits,20,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,1,0,0,0,0,0,0
+Total,reads,by,sample,874237,25572,13257,24124,15605,18961,18476,12059,29860,37944,31326,28027,12257,16925,20587,16913,24221,9892,48972,76555,80351,80360,71466,40131,40115,40130,40151
