@@ -50,15 +50,15 @@ sed 's/;/\t/g' coi_alberta_curated.fasta > coi_seq_4RDP.fasta
 **Train**
 ```{bash, eval = FALSE}
 ################# 12S ##############################
-python2 lineage2taxTrain.py header4rdp.txt > ready4train_tax.txt
-python2 addFullLineage.py header4rdp.txt seq4rdp.fasta > ready4train_seqs.fasta 
+python2 /rdp_script/lineage2taxTrain.py header4rdp.txt > ready4train_tax.txt
+python2 /rdp_script/addFullLineage.py header4rdp.txt seq4rdp.fasta > ready4train_seqs.fasta 
 
 java -Xmx10g -jar ~/rdp_classifier_2.14/dist/classifier.jar train -o 12s_training_files -s ready4train_seqs.fasta -t ready4train_tax.txt
 
 
 ################# COI ##############################
-python2 lineage2taxTrain.py coi_header_4RDP.txt > ready4train_taxonomy.txt
-python2 addFullLineage.py coi_header_4RDP.txt coi_seq_4RDP.fasta > ready4train_seqs.fasta 
+python2 /rdp_script/lineage2taxTrain.py coi_header_4RDP.txt > ready4train_taxonomy.txt
+python2 /rdp_script/addFullLineage.py coi_header_4RDP.txt coi_seq_4RDP.fasta > ready4train_seqs.fasta 
 java -Xmx10g -jar ~/rdp_classifier_2.14/dist/classifier.jar train -o COI_training_files -s ready4train_seqs.fasta -t ready4train_taxonomy.txt
 ``` 
 
